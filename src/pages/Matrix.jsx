@@ -1054,17 +1054,12 @@ function Matrix() {
               <div className="header">Consensus Layer</div>
               <ul className="pl-12">
                 <li className="topic">
-                  Computation Intensive Based
+                  Capabilities Based
                   <ul className="list-disc pl-12 topic">
                     <li>
                       <h3>Government Concerns</h3>
                       <ul className="list-disc pl-12 description">
-                        <li>
-                          Amount of electricity being used comparatively to
-                          similar technology that uses less
-                        </li>
-                        <li>Fault tolerant consensus</li>
-                        <li>Decryption Standards</li>
+                        <li>Upgrading consumer security standards</li>
                       </ul>
                     </li>
                     <li>
@@ -1074,11 +1069,14 @@ function Matrix() {
                         style={{ color: "var(--text)" }}
                       >
                         <li>
-                          High energy consumption leading to environmental
-                          concerns
+                          Insufficient protection of user data and privacy
                         </li>
-                        <li>Potential centralization of mining power</li>
-                        <li>Vulnerability to 51% attacks</li>
+                        <li>
+                          Potential exposure to smart contract vulnerabilities
+                        </li>
+                        <li>
+                          Lack of recourse in case of unauthorized transactions
+                        </li>
                       </ul>
                     </li>
                     <li>
@@ -1088,16 +1086,16 @@ function Matrix() {
                         style={{ color: "var(--text)" }}
                       >
                         <li>
-                          Stifling innovation and development of
-                          energy-efficient consensus mechanisms
+                          Hampering innovation by imposing rigid security
+                          standards
                         </li>
                         <li>
-                          Driving blockchain projects to operate in
-                          jurisdictions with more favorable regulations
+                          Reducing accessibility and inclusivity by raising
+                          entry barriers
                         </li>
                         <li>
-                          Disincentivizing network participation due to
-                          excessive compliance requirements
+                          Limiting the potential of decentralized applications
+                          (dApps) due to excessive control
                         </li>
                       </ul>
                     </li>
@@ -1108,16 +1106,16 @@ function Matrix() {
                         style={{ color: "var(--text)" }}
                       >
                         <li>
-                          Lack of standardization leading to security
-                          vulnerabilities
+                          Proliferation of insecure smart contracts leading to
+                          financial losses
                         </li>
                         <li>
-                          Potential for concentration of power among mining
-                          entities
+                          Erosion of consumer trust and confidence in blockchain
+                          applications
                         </li>
                         <li>
-                          Difficulty in addressing fraudulent or malicious
-                          activities
+                          Difficulty in addressing cross-border disputes and
+                          fraudulent activities
                         </li>
                       </ul>
                     </li>
@@ -1130,18 +1128,7 @@ function Matrix() {
                         className="list-disc pl-12 description"
                         style={{ color: "var(--text)" }}
                       >
-                        <li>
-                          Proof of Stake (PoS) consensus algorithms that require
-                          significantly less energy
-                        </li>
-                        <li>
-                          Byzantine Fault Tolerance (BFT) protocols ensuring
-                          fault tolerance
-                        </li>
-                        <li>
-                          Advanced encryption techniques for secure transactions
-                          and data privacy
-                        </li>
+                        <li></li>
                       </ul>
                     </li>
                   </ul>
@@ -1215,8 +1202,586 @@ function Matrix() {
             </div>
           </div>
         </div>
+        <div className="hover-text">
+          <h2>
+            <div className="text-left mb-5 pl-10">
+              <div className="header">Consensus Layer</div>
+              <ul className="pl-12">
+                <li className="topic">
+                  Capabilities Based
+                  <ul className="list-disc pl-12 topic">
+                    <li>
+                      <h3>Government Concerns</h3>
+                      <ul className="list-disc pl-12 description">
+                        <li>Upgrading consumer security standards</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h3>Consumer Risks</h3>
+                      <ul
+                        className="list-disc pl-12 description"
+                        style={{ color: "var(--text)" }}
+                      >
+                        <li>
+                          Insufficient protection of user data and privacy
+                        </li>
+                        <li>
+                          Potential exposure to smart contract vulnerabilities
+                        </li>
+                        <li>
+                          Lack of recourse in case of unauthorized transactions
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h3>Cons to over-regulation</h3>
+                      <ul
+                        className="list-disc pl-12 description"
+                        style={{ color: "var(--text)" }}
+                      >
+                        <li>
+                          Hampering innovation by imposing rigid security
+                          standards
+                        </li>
+                        <li>
+                          Reducing accessibility and inclusivity by raising
+                          entry barriers
+                        </li>
+                        <li>
+                          Limiting the potential of decentralized applications
+                          (dApps) due to excessive control
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h3>Cons to lack of regulation</h3>
+                      <ul
+                        className="list-disc pl-12 description"
+                        style={{ color: "var(--text)" }}
+                      >
+                        <li>
+                          Proliferation of insecure smart contracts leading to
+                          financial losses
+                        </li>
+                        <li>
+                          Erosion of consumer trust and confidence in blockchain
+                          applications
+                        </li>
+                        <li>
+                          Difficulty in addressing cross-border disputes and
+                          fraudulent activities
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h3>
+                        Does blockchain technology currently exist to fulfill
+                        these obligations, and if so, what is it?
+                      </h3>
+                      <ul
+                        className="list-disc pl-12 description"
+                        style={{ color: "var(--text)" }}
+                      >
+                        <li></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </h2>
+        </div>
+        <div className="section-col" id="section1">
+          <div className="section">
+            <div className="section-in">
+              <img
+                src="c2.png"
+                alt="Logo"
+                style={{
+                  display: "block",
+                  width: "200px",
+                  height: "auto",
+                  margin: "0 auto",
+                }}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="hover-text">
+          <h2>
+            <div className="text-left mb-5 pl-10">
+              <div className="header">Consensus Layer</div>
+              <ul className="pl-12">
+                <li className="topic">
+                  Voting Based
+                  <ul className="list-disc pl-12 topic">
+                    <li>
+                      <h3>Government Concerns</h3>
+                      <ul className="list-disc pl-12 description">
+                        <li>Ensuring fair and transparent voting processes</li>
+                        <li>Preventing voter fraud and manipulation</li>
+                        <li>Addressing potential collusion or vote-buying</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h3>Consumer Risks</h3>
+                      <ul
+                        className="list-disc pl-12 description"
+                        style={{ color: "var(--text)" }}
+                      >
+                        <li>
+                          Lack of anonymity in voting leading to privacy
+                          concerns
+                        </li>
+                        <li>
+                          Vulnerability to Sybil attacks or stake concentration
+                        </li>
+                        <li>Complexity of verifying the legitimacy of votes</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h3>Cons to over-regulation</h3>
+                      <ul
+                        className="list-disc pl-12 description"
+                        style={{ color: "var(--text)" }}
+                      >
+                        <li>
+                          Overly strict regulations hindering the flexibility
+                          and innovation of voting mechanisms
+                        </li>
+                        <li>
+                          Potential centralization of voting power due to
+                          stringent requirements
+                        </li>
+                        <li>
+                          Difficulty in adapting to rapidly changing
+                          technological advancements
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h3>Cons to lack of regulation</h3>
+                      <ul
+                        className="list-disc pl-12 description"
+                        style={{ color: "var(--text)" }}
+                      >
+                        <li>
+                          Vulnerability to malicious attacks on the voting
+                          process
+                        </li>
+                        <li>
+                          Lack of accountability and transparency in voting
+                          results
+                        </li>
+                        <li>
+                          Challenges in addressing disputes and irregularities
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h3>
+                        Does blockchain technology currently exist to fulfill
+                        these obligations, and if so, what is it?
+                      </h3>
+                      <ul
+                        className="list-disc pl-12 description"
+                        style={{ color: "var(--text)" }}
+                      >
+                        <li></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </h2>
+        </div>
+
+        <div className="section-col">
+          <div className="section">
+            <div className="section-in">
+              <img
+                src="computation.png"
+                alt="Logo"
+                style={{
+                  display: "block",
+                  width: "200px",
+                  height: "auto",
+                  margin: "0 auto",
+                }}
+              />
+            </div>
+          </div>
+          <div
+            className="line"
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "-3%",
+              transform: "translate(-50%, -50%)",
+              width: "100px",
+              height: "3px",
+              background: "var(--subtitle)",
+            }}
+          ></div>
+          <div
+            className="line"
+            style={{
+              position: "absolute",
+              top: "50%",
+              right: "-2%",
+              transform: "translate(50%, 50%)",
+              width: "100px",
+              height: "3px",
+              background: "var(--subtitle)",
+            }}
+          ></div>
+        </div>
+        <div className="hover-text">
+          <h2
+            className="text-3xl"
+            style={{ maxWidth: "400px", color: "var(--hover-subtext)" }}
+          >
+            This row is referring to the Voting Based style of Consensus
+            Mechanisms
+          </h2>
+        </div>
+        <div className="section-col">
+          <div className="section">
+            <div className="section-in">
+              <img
+                src="d2.png"
+                alt="Logo"
+                style={{
+                  display: "block",
+                  width: "200px",
+                  height: "auto",
+                  margin: "0 auto",
+                }}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="hover-text">
+          <h2>
+            <div className="text-left mb-5 pl-10">
+              <div className="header">Consensus Layer</div>
+              <ul className="pl-12">
+                <li className="topic">
+                  Voting Based
+                  <ul className="list-disc pl-12 topic">
+                    <li>
+                      <h3>Government Concerns</h3>
+                      <ul className="list-disc pl-12 description">
+                        <li>Ensuring fair and transparent voting processes</li>
+                        <li>Preventing voter fraud and manipulation</li>
+                        <li>Addressing potential collusion or vote-buying</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h3>Consumer Risks</h3>
+                      <ul
+                        className="list-disc pl-12 description"
+                        style={{ color: "var(--text)" }}
+                      >
+                        <li>
+                          Lack of anonymity in voting leading to privacy
+                          concerns
+                        </li>
+                        <li>
+                          Vulnerability to Sybil attacks or stake concentration
+                        </li>
+                        <li>Complexity of verifying the legitimacy of votes</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h3>Cons to over-regulation</h3>
+                      <ul
+                        className="list-disc pl-12 description"
+                        style={{ color: "var(--text)" }}
+                      >
+                        <li>
+                          Overly strict regulations hindering the flexibility
+                          and innovation of voting mechanisms
+                        </li>
+                        <li>
+                          Potential centralization of voting power due to
+                          stringent requirements
+                        </li>
+                        <li>
+                          Difficulty in adapting to rapidly changing
+                          technological advancements
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h3>Cons to lack of regulation</h3>
+                      <ul
+                        className="list-disc pl-12 description"
+                        style={{ color: "var(--text)" }}
+                      >
+                        <li>
+                          Vulnerability to malicious attacks on the voting
+                          process
+                        </li>
+                        <li>
+                          Lack of accountability and transparency in voting
+                          results
+                        </li>
+                        <li>
+                          Challenges in addressing disputes and irregularities
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <h3>
+                        Does blockchain technology currently exist to fulfill
+                        these obligations, and if so, what is it?
+                      </h3>
+                      <ul
+                        className="list-disc pl-12 description"
+                        style={{ color: "var(--text)" }}
+                      >
+                        <li></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </h2>
+        </div>
+        <div className="section-col" id="section1">
+          <div className="section">
+            <div className="section-in">
+              <img
+                src="c2.png"
+                alt="Logo"
+                style={{
+                  display: "block",
+                  width: "200px",
+                  height: "auto",
+                  margin: "0 auto",
+                }}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="hover-text">
+          <h2>
+            <div className="text-left mb-5 pl-10">
+              <div className="header">Transaction Layer</div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Government Concerns</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Ensuring traceability and transparency of transactions
+                      </li>
+                      <li>
+                        Preventing illegal activities such as money laundering
+                        and fraud
+                      </li>
+                      <li>
+                        Addressing cross-border transaction challenges and
+                        regulatory compliance
+                      </li>
+                      <li>
+                        An anonymous public ledger inhibits appropriate
+                        recordkeeping
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Consumer Risks</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Exposure to potential transaction delays or fees</li>
+                      <li>
+                        Privacy concerns related to transaction history being
+                        publicly accessible
+                      </li>
+                      <li>Risk of inaccurate or irreversible transactions</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to over-regulation</h3>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to lack of regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Stifling innovation and experimentation with new
+                        transaction models
+                      </li>
+                      <li>
+                        Restricting financial inclusion by imposing excessive
+                        compliance requirements
+                      </li>
+                      <li>
+                        Hampering the usability and efficiency of blockchain
+                        transactions
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>
+                      Does blockchain technology currently exist to fulfill
+                      these obligations, and if so, what is it?
+                    </h3>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </h2>
+        </div>
+        <div className="section-col">
+          <div className="section">
+            <div className="section-in">
+              <img
+                src="s1.png"
+                alt="Logo"
+                style={{
+                  display: "block",
+                  width: "200px",
+                  height: "auto",
+                  margin: "0 auto",
+                }}
+              />
+            </div>
+          </div>
+          <div
+            className="line"
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "-3%",
+              transform: "translate(-50%, -50%)",
+              width: "100px",
+              height: "3px",
+              background: "var(--subtitle)",
+            }}
+          ></div>
+          <div
+            className="line"
+            style={{
+              position: "absolute",
+              top: "50%",
+              right: "-2%",
+              transform: "translate(50%, 50%)",
+              width: "100px",
+              height: "3px",
+              background: "var(--subtitle)",
+            }}
+          ></div>
+        </div>
+        <div className="hover-text">
+          <h2
+            className="text-3xl"
+            style={{ maxWidth: "400px", color: "var(--hover-subtext)" }}
+          >
+            This row applies to the Transaction Layer in the sense of
+            permanently recording the transactions.
+          </h2>
+        </div>
+        <div className="section-col">
+          <div className="section">
+            <div className="section-in">
+              <img
+                src="d2.png"
+                alt="Logo"
+                style={{
+                  display: "block",
+                  width: "200px",
+                  height: "auto",
+                  margin: "0 auto",
+                }}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="hover-text">
+          <h2>
+            <div className="text-left mb-5 pl-10">
+              <div className="header">Settlement Layer</div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Government Concerns</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Not being able to update / edit fraudulent transactions
+                      </li>
+                      <li>
+                        Not being able to identify immoral activity that could
+                        be deemed fraudulent
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Consumer Risks</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Lack of due diligence</li>
+                      <li>Security and attacks</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to over-regulation</h3>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to lack of regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Potential displacement of development activities to more
+                        permissive jurisdictions
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>
+                      Does blockchain technology currently exist to fulfill
+                      these obligations, and if so, what is it?
+                    </h3>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </h2>
+        </div>
+        <style>{inlineStyles}</style>
       </div>
-      <style>{inlineStyles}</style>
     </div>
   );
 }

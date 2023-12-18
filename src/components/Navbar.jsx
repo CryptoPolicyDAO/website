@@ -49,7 +49,7 @@ export default function Navbar() {
             </button>
 
             {showThemes && (
-              <div className="absolute z-10 top-10 right-0 bg-white border border-gray-300 rounded-md shadow-lg theme-dropdown-options">
+              <div className="absolute z-10 center-0 top-10 bg-white border border-gray-300 rounded-md shadow-lg theme-dropdown-options">
                 <button
                   className="block w-full py-2 text-left px-4 original-button-hover"
                   style={{ color: "#067288" }}
