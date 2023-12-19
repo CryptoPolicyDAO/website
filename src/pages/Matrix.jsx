@@ -201,18 +201,19 @@ function Matrix() {
         <div className="hover-text">
           <h2>
             <div className="text-left mb-5 pl-10">
-              <div className="header">Settlement Layer</div>
+              <div className="header">Electricity</div>
               <ul className="pl-12">
                 <li className="topic">
                   <div>
                     <h3>Government Concerns</h3>
                     <ul className="list-disc pl-12 description">
                       <li>
-                        Not being able to update / edit fraudulent transactions
+                        Protecting consumers from loss of use due to a
+                        geopolitical situation
                       </li>
                       <li>
-                        Not being able to identify immoral activity that could
-                        be deemed fraudulent
+                        Amount of electricity required to maintain the
+                        blockchain and the amount per transaction
                       </li>
                     </ul>
                   </div>
@@ -223,8 +224,10 @@ function Matrix() {
                   <div>
                     <h3>Consumer Risks</h3>
                     <ul className="list-disc pl-12 description">
-                      <li>Lack of due diligence</li>
-                      <li>Security and attacks</li>
+                      <li>
+                        Potential geopolitical risks leading to electricity
+                        access disruptions
+                      </li>
                     </ul>
                   </div>
                 </li>
@@ -233,6 +236,14 @@ function Matrix() {
                 <li className="topic">
                   <div>
                     <h3>Cons to over-regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Inability to use the blockchain to solve real-world
+                        problems
+                      </li>
+                      <li>Inhibiting technological growth</li>
+                      <li>Limiting economic growth</li>
+                    </ul>
                   </div>
                 </li>
               </ul>
@@ -242,8 +253,8 @@ function Matrix() {
                     <h3>Cons to lack of regulation</h3>
                     <ul className="list-disc pl-12 description">
                       <li>
-                        Potential displacement of development activities to more
-                        permissive jurisdictions
+                        Potential risks of concentration and control by certain
+                        countries
                       </li>
                     </ul>
                   </div>
