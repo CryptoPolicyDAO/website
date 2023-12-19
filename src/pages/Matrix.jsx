@@ -200,64 +200,64 @@ function Matrix() {
         </div>
         <div className="hover-text">
           <h2>
-            <div className="text-left">
-              <div className="header">Electricity</div>
-              <ul className="list-disc pl-12 topic">
-                <div>
-                  {" "}
-                  Government Concerns
-                  <ul className="list-disc pl-12 description">
-                    <li>
-                      Protecting consumers from loss of use due to a
-                      geopolitical situation
-                    </li>
-                    <li>
-                      Amount of electricity required to maintain the blockchain
-                      and the amount per transaction
-                    </li>
-                  </ul>
-                </div>
+            <div className="text-left mb-5 pl-10">
+              <div className="header">Settlement Layer</div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Government Concerns</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Not being able to update / edit fraudulent transactions
+                      </li>
+                      <li>
+                        Not being able to identify immoral activity that could
+                        be deemed fraudulent
+                      </li>
+                    </ul>
+                  </div>
+                </li>
               </ul>
-              <ul className="list-disc pl-12 topic">
-                <div>
-                  Consumer Risks
-                  <ul className="list-disc pl-12 description">
-                    <li>
-                      Potential geopolitical risks leading to electricity access
-                      disruptions
-                    </li>
-                  </ul>
-                </div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Consumer Risks</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Lack of due diligence</li>
+                      <li>Security and attacks</li>
+                    </ul>
+                  </div>
+                </li>
               </ul>
-              <ul className="list-disc pl-12 topic">
-                <div>
-                  Cons to over-regulation
-                  <ul className="list-disc pl-12 description">
-                    <li>
-                      Potential risks of concentration and control by certain
-                      countries
-                    </li>
-                  </ul>
-                </div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to over-regulation</h3>
+                  </div>
+                </li>
               </ul>
-              <ul className="list-disc pl-12 topic">
-                <div>
-                  <h3>Cons to lack of regulation</h3>
-                  <ul className="list-disc pl-12 description">
-                    <li>
-                      Potential displacement of development activities to more
-                      permissive jurisdictions
-                    </li>
-                  </ul>
-                </div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to lack of regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Potential displacement of development activities to more
+                        permissive jurisdictions
+                      </li>
+                    </ul>
+                  </div>
+                </li>
               </ul>
-              <ul className="list-disc pl-12 topic">
-                <div>
-                  <h3>
-                    Does blockchain technology currently exist to fulfill these
-                    obligations, and if so, what is it?
-                  </h3>
-                </div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>
+                      Does blockchain technology currently exist to fulfill
+                      these obligations, and if so, what is it?
+                    </h3>
+                  </div>
+                </li>
               </ul>
             </div>
           </h2>
@@ -266,7 +266,7 @@ function Matrix() {
           <div className="section">
             <div className="section-in">
               <img
-                src="e10.png"
+                src="s1.png"
                 alt="Logo"
                 style={{
                   display: "block",
@@ -277,14 +277,38 @@ function Matrix() {
               />
             </div>
           </div>
+          <div
+            className="line"
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "-3%",
+              transform: "translate(-50%, -50%)",
+              width: "100px",
+              height: "3px",
+              background: "var(--hover-subtext)",
+            }}
+          ></div>
+          <div
+            className="line"
+            style={{
+              position: "absolute",
+              top: "50%",
+              right: "-2%",
+              transform: "translate(50%, 50%)",
+              width: "100px",
+              height: "3px",
+              background: "var(--hover-subtext)",
+            }}
+          ></div>
         </div>
         <div className="hover-text">
           <h2
             className="text-3xl"
             style={{ maxWidth: "400px", color: "var(--hover-subtext)" }}
           >
-            This row applies to those that produce the electricity that powers
-            the blockchain.
+            This row applies to the Settlement Layer in the sense of permanently
+            recording the transactions.
           </h2>
         </div>
         <div className="section-col">
@@ -305,64 +329,64 @@ function Matrix() {
         </div>
         <div className="hover-text">
           <h2>
-            <div className="text-left">
-              <div className="header">Electricity</div>
-              <ul className="list-disc pl-12 topic">
-                <div>
-                  {" "}
-                  Government Concerns
-                  <ul className="list-disc pl-12 description">
-                    <li>
-                      Protecting consumers from loss of use due to a
-                      geopolitical situation
-                    </li>
-                    <li>
-                      Amount of electricity required to maintain the blockchain
-                      and the amount per transaction
-                    </li>
-                  </ul>
-                </div>
+            <div className="text-left mb-5 pl-10">
+              <div className="header">Settlement Layer</div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Government Concerns</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Not being able to update / edit fraudulent transactions
+                      </li>
+                      <li>
+                        Not being able to identify immoral activity that could
+                        be deemed fraudulent
+                      </li>
+                    </ul>
+                  </div>
+                </li>
               </ul>
-              <ul className="list-disc pl-12 topic">
-                <div>
-                  Consumer Risks
-                  <ul className="list-disc pl-12 description">
-                    <li>
-                      Potential geopolitical risks leading to electricity access
-                      disruptions
-                    </li>
-                  </ul>
-                </div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Consumer Risks</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Lack of due diligence</li>
+                      <li>Security and attacks</li>
+                    </ul>
+                  </div>
+                </li>
               </ul>
-              <ul className="list-disc pl-12 topic">
-                <div>
-                  Cons to over-regulation
-                  <ul className="list-disc pl-12 description">
-                    <li>
-                      Potential risks of concentration and control by certain
-                      countries
-                    </li>
-                  </ul>
-                </div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to over-regulation</h3>
+                  </div>
+                </li>
               </ul>
-              <ul className="list-disc pl-12 topic">
-                <div>
-                  <h3>Cons to lack of regulation</h3>
-                  <ul className="list-disc pl-12 description">
-                    <li>
-                      Potential displacement of development activities to more
-                      permissive jurisdictions
-                    </li>
-                  </ul>
-                </div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to lack of regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Potential displacement of development activities to more
+                        permissive jurisdictions
+                      </li>
+                    </ul>
+                  </div>
+                </li>
               </ul>
-              <ul className="list-disc pl-12 topic">
-                <div>
-                  <h3>
-                    Does blockchain technology currently exist to fulfill these
-                    obligations, and if so, what is it?
-                  </h3>
-                </div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>
+                      Does blockchain technology currently exist to fulfill
+                      these obligations, and if so, what is it?
+                    </h3>
+                  </div>
+                </li>
               </ul>
             </div>
           </h2>
@@ -471,7 +495,7 @@ function Matrix() {
               transform: "translate(-50%, -50%)",
               width: "100px",
               height: "3px",
-              background: "var(--subtitle)",
+              background: "var(--hover-subtext)",
             }}
           ></div>
           <div
@@ -483,7 +507,7 @@ function Matrix() {
               transform: "translate(50%, 50%)",
               width: "100px",
               height: "3px",
-              background: "var(--subtitle)",
+              background: "var(--hover-subtext)",
             }}
           ></div>
         </div>

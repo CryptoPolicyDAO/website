@@ -233,7 +233,7 @@ export default function Navbar() {
         }
         
         .original-button-hover:hover {
-            background-color: #f1faee;
+            background-color: #f0f5f9;
           }
           .dark-button-hover:hover {
             background-color: #6987a0;

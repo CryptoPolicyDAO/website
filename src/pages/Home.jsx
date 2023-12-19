@@ -1,14 +1,8 @@
 import videoFile from "/3DLogo.mp4";
 import { useState } from "react";
-import SongList from "../components/SongList";
 
 export default function Home() {
   const [isZoomed, setIsZoomed] = useState(false);
-  const [showSongList, setShowSongList] = useState(false);
-  const songs = [
-    "Super Intelligence.mp3",
-    "Extremely Powerful Brainwave Binaural.mp3",
-  ];
 
   const inlineStyles = `
     video {
@@ -69,20 +63,6 @@ export default function Home() {
             blockchain connect.
           </p>
         </div>
-        <button
-          onClick={() => setShowSongList(!showSongList)}
-          style={{
-            color: "var(--header-color)",
-            fontSize: "1.5rem",
-            cursor: "pointer",
-            backgroundColor: "transparent",
-            border: "none",
-            outline: "none",
-          }}
-        >
-          Music while you read?
-        </button>
-        {showSongList && <SongList songs={songs} />}
       </div>
       <style>{inlineStyles}</style>
     </div>
