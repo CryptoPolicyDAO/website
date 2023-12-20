@@ -1,4 +1,23 @@
+import React, { useState } from "react";
+
 function Matrix() {
+  const [currentTheme, setCurrentTheme] = useState("light");
+
+  const handleThemeChange = (selectedTheme) => {
+    setCurrentTheme(selectedTheme);
+  };
+
+  const images = {
+    light: {
+      centralized: "c2.png",
+      decentralized: "de.png",
+    },
+    dark: {
+      centralized: "d2.png",
+      decentralized: "d2.png",
+    },
+  };
+
   const inlineStyles = `
 
     .body {
@@ -128,10 +147,7 @@ function Matrix() {
         transform: scale(1);
       }
       
-      
-
-      
-      
+          
       @media (max-width: 767px) {
         .section-col{
           -ms-flex: 0 0 100%;
@@ -176,9 +192,8 @@ function Matrix() {
             color: var(--hover-subtext);
           }
 
-        
         `;
-
+  const currentImages = images[currentTheme];
   return (
     <div className="section-fluid-main">
       <div className="section-row">
@@ -186,7 +201,7 @@ function Matrix() {
           <div className="section">
             <div className="section-in">
               <img
-                src="c2.png"
+                src={currentImages.centralized}
                 alt="Logo"
                 style={{
                   display: "block",
@@ -277,7 +292,7 @@ function Matrix() {
           <div className="section">
             <div className="section-in">
               <img
-                src="s1.png"
+                src="e10.png"
                 alt="Logo"
                 style={{
                   display: "block",
@@ -326,7 +341,7 @@ function Matrix() {
           <div className="section">
             <div className="section-in">
               <img
-                src="d2.png"
+                src={currentImages.decentralized}
                 alt="Logo"
                 style={{
                   display: "block",
