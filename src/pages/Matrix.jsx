@@ -164,10 +164,12 @@ function Matrix() {
 
           .topic {
             color: var(--hover-text);
+            font-size: 1.5rem;
           }
 
           .description {
             color: var(--hover-subtext);
+            font-size: 1.5rem;
           }
 
           .image1 {
