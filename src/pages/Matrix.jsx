@@ -1,29 +1,9 @@
-import React, { useState } from "react";
-
 function Matrix() {
-  const [currentTheme, setCurrentTheme] = useState("light");
-
-  const handleThemeChange = (selectedTheme) => {
-    setCurrentTheme(selectedTheme);
-  };
-
-  const images = {
-    light: {
-      centralized: "c2.png",
-      decentralized: "de.png",
-    },
-    dark: {
-      centralized: "d2.png",
-      decentralized: "d2.png",
-    },
-  };
-
   const inlineStyles = `
 
     .body {
         font-family: 'Poppins', sans-serif;
         font-weight: 200;
-
         line-height: 1.7;
         color: var(--effect-2);
         background-color: #1f2029;
@@ -32,15 +12,13 @@ function Matrix() {
 
       }
       
-      
       p{
         font-family: 'Poppins', sans-serif;
-
-
         line-height: 1.7;
         color: var(--effect-2);
         margin: 0;
       }
+
       .section-fluid-main{
         position: relative;
         display: block;
@@ -96,13 +74,13 @@ function Matrix() {
         align-items: center;
       }
       
-      .section-in img{
+      .section-in{
         display: block;
         width: 100%;
         height: auto;
         transition: transform 250ms linear;
       }
-      .section-col:hover .section-in img{
+      .section-col:hover .section-in{
         transform: scale(1.2);
           opacity: 0.5;
       }
@@ -192,24 +170,33 @@ function Matrix() {
             color: var(--hover-subtext);
           }
 
+          .image1 {
+            background-image: var(--image1);
+            
+          }
+
+          .image2 {
+            background-image: var(--image2);
+          }
         `;
-  const currentImages = images[currentTheme];
+
   return (
     <div className="section-fluid-main">
       <div className="section-row">
         <div className="section-col" id="section1">
           <div className="section">
             <div className="section-in">
-              <img
-                src={currentImages.centralized}
-                alt="Logo"
+              <div
+                className="image1" // Apply the className for background image styles
                 style={{
-                  display: "block",
                   width: "200px",
-                  height: "auto",
+                  height: "200px", // Set a specific height to ensure visibility
                   margin: "0 auto",
+                  backgroundImage: "var(--image1)", // Set the background image using CSS variable
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat", // Ensure the background image isn't repeated
                 }}
-              />
+              ></div>
             </div>
           </div>
         </div>
@@ -340,16 +327,17 @@ function Matrix() {
         <div className="section-col">
           <div className="section">
             <div className="section-in">
-              <img
-                src={currentImages.decentralized}
-                alt="Logo"
+              <div
+                className="image2" // Apply the className for background image styles
                 style={{
-                  display: "block",
                   width: "200px",
-                  height: "auto",
+                  height: "200px", // Set a specific height to ensure visibility
                   margin: "0 auto",
+                  backgroundImage: "var(--image2)", // Set the background image using CSS variable
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat", // Ensure the background image isn't repeated
                 }}
-              />
+              ></div>
             </div>
           </div>
         </div>
@@ -420,16 +408,17 @@ function Matrix() {
         <div className="section-col" id="section1">
           <div className="section">
             <div className="section-in">
-              <img
-                src="c2.png"
+              <div
+                className="image1"
                 alt="Logo"
                 style={{
-                  display: "block",
                   width: "200px",
                   height: "auto",
                   margin: "0 auto",
+                  backgroundImage: "var(--image1)", // Add this line to set the background image
+                  backgroundSize: "contain", // Adjust background size to fit the container
                 }}
-              />
+              ></div>
             </div>
           </div>
         </div>

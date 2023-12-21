@@ -27,6 +27,8 @@
   --button-text: #1e2a78; /* Ensure enough contrast against background */
   --hover-text: #234f88; /* Contrast against the hover background */
   --hover-subtext: #29285c; /* Subtle hover effect */
+  --image1: url("/c1.png");
+  --image2: url("/d1.png");
 }
 
 [data-theme="Dark"] {
@@ -58,6 +60,8 @@
   --button-text: #a2b2c7;
   --hover-text: #a8b2bb;
   --hover-subtext: #80b3c2;
+  --image1: url("c2.png");
+  --image2: url("d2.png");
 }
 
 body {
