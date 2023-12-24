@@ -157,7 +157,7 @@ function Matrix() {
         }
 
           .header {
-            color: var(--hover-text);
+            color: var(--header-color);
             font-weight: bold;
             font-size: 1.5rem;
           }
@@ -266,12 +266,25 @@ function Matrix() {
               </ul>
               <ul className="pl-12">
                 <li className="topic">
-                  <div>
-                    <h3>
-                      Does blockchain technology currently exist to fulfill
-                      these obligations, and if so, what is it?
-                    </h3>
-                  </div>
+                  <h3>
+                    Does blockchain technology currently exist to fulfill these
+                    obligations, and if so, what is it?
+                  </h3>
+
+                  <ul className="list-disc pl-12 description">
+                    <li>
+                      Proof of Stake (PoS) consensus algorithms that require
+                      significantly less energy
+                    </li>
+                    <li>
+                      Byzantine Fault Tolerance (BFT) protocols ensuring fault
+                      tolerance
+                    </li>
+                    <li>
+                      Advanced encryption techniques for secure transactions and
+                      data privacy
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -405,12 +418,25 @@ function Matrix() {
               </ul>
               <ul className="pl-12">
                 <li className="topic">
-                  <div>
-                    <h3>
-                      Does blockchain technology currently exist to fulfill
-                      these obligations, and if so, what is it?
-                    </h3>
-                  </div>
+                  <h3>
+                    Does blockchain technology currently exist to fulfill these
+                    obligations, and if so, what is it?
+                  </h3>
+
+                  <ul className="list-disc pl-12 description">
+                    <li>
+                      Proof of Stake (PoS) consensus algorithms that require
+                      significantly less energy
+                    </li>
+                    <li>
+                      Byzantine Fault Tolerance (BFT) protocols ensuring fault
+                      tolerance
+                    </li>
+                    <li>
+                      Advanced encryption techniques for secure transactions and
+                      data privacy
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
