@@ -99,6 +99,19 @@ function Portfolio() {
     return <div>Loading...</div>;
   }
 
+  const filteredTokens = data.filter((token) =>
+    [
+      "FTM0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "SCREAM0xe0654c8e6fd4d733349ac7e09f6f23da256bf475",
+      "DAI0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+      "WFTM0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+    ].includes(token.contract_ticker_symbol)
+  );
+
+  const filteredKeys = filteredTokens.map(
+    (item) => item.contract_ticker_symbol
+  );
+
   return (
     <div className="page-container mt-20">
       <div className="paragraph-container mt-10">

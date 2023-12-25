@@ -264,29 +264,6 @@ function Matrix() {
                   </div>
                 </li>
               </ul>
-              <ul className="pl-12">
-                <li className="topic">
-                  <h3>
-                    Does blockchain technology currently exist to fulfill these
-                    obligations, and if so, what is it?
-                  </h3>
-
-                  <ul className="list-disc pl-12 description">
-                    <li>
-                      Proof of Stake (PoS) consensus algorithms that require
-                      significantly less energy
-                    </li>
-                    <li>
-                      Byzantine Fault Tolerance (BFT) protocols ensuring fault
-                      tolerance
-                    </li>
-                    <li>
-                      Advanced encryption techniques for secure transactions and
-                      data privacy
-                    </li>
-                  </ul>
-                </li>
-              </ul>
             </div>
           </h2>
         </div>
@@ -442,7 +419,237 @@ function Matrix() {
             </div>
           </h2>
         </div>
+        <div className="section-col" id="section1">
+          <div className="section">
+            <div className="section-in">
+              <div
+                className="image1" // Apply the className for background image styles
+                style={{
+                  width: "200px",
+                  height: "200px", // Set a specific height to ensure visibility
+                  margin: "0 auto",
+                  backgroundImage: "var(--image1)", // Set the background image using CSS variable
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat", // Ensure the background image isn't repeated
+                }}
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div className="hover-text">
+          <h2>
+            <div className="text-left mb-5 pl-10">
+              <div className="header">Electricity</div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Government Concerns</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Protecting consumers from loss of use due to a
+                        geopolitical situation
+                      </li>
+                      <li>
+                        Amount of electricity required to maintain the
+                        blockchain and the amount per transaction
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Consumer Risks</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Potential geopolitical risks leading to electricity
+                        access disruptions
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to over-regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Inability to use the blockchain to solve real-world
+                        problems
+                      </li>
+                      <li>Inhibiting technological growth</li>
+                      <li>Limiting economic growth</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to lack of regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Potential risks of concentration and control by certain
+                        countries
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </h2>
+        </div>
+        <div className="section-col">
+          <div className="section">
+            <div className="section-in">
+              <img
+                src="e10.png"
+                alt="Logo"
+                style={{
+                  display: "block",
+                  width: "200px",
+                  height: "auto",
+                  margin: "0 auto",
+                }}
+              />
+            </div>
+          </div>
+          <div
+            className="line"
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "-3%",
+              transform: "translate(-50%, -50%)",
+              width: "100px",
+              height: "3px",
+              background: "var(--nav5)",
+            }}
+          ></div>
+          <div
+            className="line"
+            style={{
+              position: "absolute",
+              top: "50%",
+              right: "-1%",
+              transform: "translate(50%, 50%)",
+              width: "100px",
+              height: "3px",
+              background: "var(--nav5)",
+            }}
+          ></div>
+        </div>
+        <div className="hover-text">
+          <h2
+            className="text-3xl"
+            style={{ maxWidth: "400px", color: "var(--hover-subtext)" }}
+          >
+            This row applies only to companies that are producing the
+            electricity that powers the blockchain.
+          </h2>
+        </div>
+        <div className="section-col">
+          <div className="section">
+            <div className="section-in">
+              <div
+                className="image2" // Apply the className for background image styles
+                style={{
+                  width: "200px",
+                  height: "200px", // Set a specific height to ensure visibility
+                  margin: "0 auto",
+                  backgroundImage: "var(--image2)", // Set the background image using CSS variable
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat", // Ensure the background image isn't repeated
+                }}
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div className="hover-text">
+          <h2>
+            <div className="text-left mb-5 pl-10">
+              <div className="header">Settlement Layer</div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Government Concerns</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Not being able to update / edit fraudulent transactions
+                      </li>
+                      <li>
+                        Not being able to identify immoral activity that could
+                        be deemed fraudulent
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Consumer Risks</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Lack of due diligence</li>
+                      <li>Security and attacks</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to over-regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Potential centralization of the blockchain settlement
+                        layer.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to lack of regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Potential displacement of development activities to more
+                        permissive jurisdictions
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <h3>
+                    Does blockchain technology currently exist to fulfill these
+                    obligations, and if so, what is it?
+                  </h3>
 
+                  <ul className="list-disc pl-12 description">
+                    <li>
+                      Proof of Stake (PoS) consensus algorithms that require
+                      significantly less energy
+                    </li>
+                    <li>
+                      Byzantine Fault Tolerance (BFT) protocols ensuring fault
+                      tolerance
+                    </li>
+                    <li>
+                      Advanced encryption techniques for secure transactions and
+                      data privacy
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </h2>
+        </div>
         <style>{inlineStyles}</style>
       </div>
     </div>
