@@ -31,7 +31,38 @@ const TokenBalances = ({
     getDataFromCovalentAPI(URL)
       .then((response) => {
         setIsLoading(false);
-        setData(response.data.items); // Update state with received data
+        // Filter out spam tokens and update specific token images
+        const updatedData = response.data.items.filter((item) => {
+          if (
+            [
+              "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee", // Fantom
+              "0xe0654c8e6fd4d733349ac7e09f6f23da256bf475", // Scream
+              "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e", // Dai Stablecoin
+              "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83", // Wrapped Fantom
+            ].includes(item.contract_address)
+          ) {
+            if (
+              item.contract_address ===
+              "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+            ) {
+              item.logo_url = "/fantom.png"; // Update the logo URL for Fantom token
+            } else if (
+              item.contract_address ===
+              "0xe0654c8e6fd4d733349ac7e09f6f23da256bf475"
+            ) {
+              item.logo_url = "/scream.jpg"; // Update the logo URL for Scream token
+            } else if (
+              item.contract_address ===
+              "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83"
+            ) {
+              item.logo_url = "/wftm.png"; // Update the logo URL for Wrapped Fantom token
+            }
+            return item;
+          }
+          return null; // Exclude spam tokens
+        });
+
+        setData(updatedData.filter(Boolean)); // Update state with filtered and updated tokens
       })
       .catch((e) => setError(true));
   };
