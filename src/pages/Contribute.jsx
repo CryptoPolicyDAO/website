@@ -46,7 +46,7 @@ export default function Contribute() {
         className="mb-10 mt-10 text-center"
         style={{ color: "var(--description-color)", fontSize: "1.5rem" }}
       >
-        Join Crypto Policy DAO to enhance regulatory clarity and to promote
+        Join Crypto Policy DAO to enhance regulatory clarity and promote
         blockchain innovation
       </p>
       <div>

@@ -3,7 +3,7 @@ function Matrix() {
 
     .body {
         font-family: 'Poppins', sans-serif;
-        font-weight: 200;
+        font-weight: 150;
         line-height: 1.7;
         color: var(--effect-2);
         background-color: #1f2029;
@@ -189,8 +189,8 @@ function Matrix() {
               <div
                 className="image1" // Apply the className for background image styles
                 style={{
-                  width: "200px",
-                  height: "200px", // Set a specific height to ensure visibility
+                  width: "150px",
+                  height: "150px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image1)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -273,7 +273,7 @@ function Matrix() {
                 alt="Logo"
                 style={{
                   display: "block",
-                  width: "200px",
+                  width: "150px",
                   height: "auto",
                   margin: "0 auto",
                 }}
@@ -320,8 +320,8 @@ function Matrix() {
               <div
                 className="image2" // Apply the className for background image styles
                 style={{
-                  width: "200px",
-                  height: "200px", // Set a specific height to ensure visibility
+                  width: "150px",
+                  height: "150px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image2)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -391,29 +391,6 @@ function Matrix() {
                   </div>
                 </li>
               </ul>
-              <ul className="pl-12">
-                <li className="topic">
-                  <h3>
-                    Does blockchain technology currently exist to fulfill these
-                    obligations, and if so, what is it?
-                  </h3>
-
-                  <ul className="list-disc pl-12 description">
-                    <li>
-                      Proof of Stake (PoS) consensus algorithms that require
-                      significantly less energy
-                    </li>
-                    <li>
-                      Byzantine Fault Tolerance (BFT) protocols ensuring fault
-                      tolerance
-                    </li>
-                    <li>
-                      Advanced encryption techniques for secure transactions and
-                      data privacy
-                    </li>
-                  </ul>
-                </li>
-              </ul>
             </div>
           </h2>
         </div>
@@ -423,8 +400,8 @@ function Matrix() {
               <div
                 className="image1" // Apply the className for background image styles
                 style={{
-                  width: "200px",
-                  height: "200px", // Set a specific height to ensure visibility
+                  width: "150px",
+                  height: "150px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image1)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -437,19 +414,18 @@ function Matrix() {
         <div className="hover-text">
           <h2>
             <div className="text-left mb-5 pl-10">
-              <div className="header">Electricity</div>
+              <div className="header">Settlement Layer</div>
               <ul className="pl-12">
                 <li className="topic">
                   <div>
                     <h3>Government Concerns</h3>
                     <ul className="list-disc pl-12 description">
                       <li>
-                        Protecting consumers from loss of use due to a
-                        geopolitical situation
+                        Not being able to update / edit fraudulent transactions
                       </li>
                       <li>
-                        Amount of electricity required to maintain the
-                        blockchain and the amount per transaction
+                        Not being able to identify immoral activity that could
+                        be deemed fraudulent
                       </li>
                     </ul>
                   </div>
@@ -460,10 +436,8 @@ function Matrix() {
                   <div>
                     <h3>Consumer Risks</h3>
                     <ul className="list-disc pl-12 description">
-                      <li>
-                        Potential geopolitical risks leading to electricity
-                        access disruptions
-                      </li>
+                      <li>Lack of due diligence</li>
+                      <li>Security and attacks</li>
                     </ul>
                   </div>
                 </li>
@@ -478,7 +452,6 @@ function Matrix() {
                         problems
                       </li>
                       <li>Inhibiting technological growth</li>
-                      <li>Limiting economic growth</li>
                     </ul>
                   </div>
                 </li>
@@ -489,11 +462,26 @@ function Matrix() {
                     <h3>Cons to lack of regulation</h3>
                     <ul className="list-disc pl-12 description">
                       <li>
-                        Potential risks of concentration and control by certain
-                        countries
+                        Potential displacement of development activities to more
+                        permissive jurisdictions
                       </li>
                     </ul>
                   </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <h3>
+                    Does blockchain technology currently exist to fulfill the
+                    above concerns, and if so, what is it?
+                  </h3>
+
+                  <ul className="list-disc pl-12 description">
+                    <li>
+                      Proof of Stake (PoS) consensus algorithms that require
+                      significantly less energy
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
@@ -507,7 +495,7 @@ function Matrix() {
                 alt="Logo"
                 style={{
                   display: "block",
-                  width: "200px",
+                  width: "150px",
                   height: "auto",
                   margin: "0 auto",
                 }}
@@ -554,8 +542,8 @@ function Matrix() {
               <div
                 className="image2" // Apply the className for background image styles
                 style={{
-                  width: "200px",
-                  height: "200px", // Set a specific height to ensure visibility
+                  width: "150px",
+                  height: "150px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image2)", // Set the background image using CSS variable
                   backgroundSize: "contain",
