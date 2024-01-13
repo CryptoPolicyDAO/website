@@ -707,6 +707,16 @@ function Matrix() {
                   </div>
                 </li>
               </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <h3>
+                    Does blockchain technology currently exist to fulfill these
+                    obligations, and if so, what is it?
+                  </h3>
+
+                  <ul className="list-disc pl-12 description"></ul>
+                </li>
+              </ul>
             </div>
           </h2>
         </div>
@@ -866,13 +876,18 @@ function Matrix() {
         <div className="hover-text">
           <h2>
             <div className="text-left mb-5 pl-10">
-              <div className="header">Node / Validator Layer</div>
+              <div className="header">
+                Computation-intensive Consensus Mechanisms
+              </div>
               <ul className="pl-12">
                 <li className="topic">
                   <div>
                     <h3>Government Concerns</h3>
                     <ul className="list-disc pl-12 description">
-                      <li>Not reporting income</li>
+                      <li>
+                        Amount of electricity being used comparatively to
+                        similar technology that uses less
+                      </li>
                       <li>Fault tolerant consensus</li>
                       <li>Decryption Standards</li>
                     </ul>
@@ -884,9 +899,12 @@ function Matrix() {
                   <div>
                     <h3>Consumer Risks</h3>
                     <ul className="list-disc pl-12 description">
-                      <li>Private Transactions</li>
-                      <li>Selective Transactions</li>
-                      <li>MEV Protection</li>
+                      <li>
+                        High energy consumption leading to environmental
+                        concerns
+                      </li>
+                      <li>Potential centralization of mining power</li>
+                      <li>Vulnerability to 51% attacks</li>
                     </ul>
                   </div>
                 </li>
@@ -896,8 +914,18 @@ function Matrix() {
                   <div>
                     <h3>Cons to over-regulation</h3>
                     <ul className="list-disc pl-12 description">
-                      <li>Centralization</li>
-                      <li>Inhibiting technological growth</li>
+                      <li>
+                        Stifling innovation and development of energy-efficient
+                        consensus mechanisms
+                      </li>
+                      <li>
+                        Driving blockchain projects to operate in jurisdictions
+                        with more favorable regulations
+                      </li>
+                      <li>
+                        Disincentivizing network participation due to excessive
+                        compliance requirements
+                      </li>
                     </ul>
                   </div>
                 </li>
@@ -908,15 +936,39 @@ function Matrix() {
                     <h3>Cons to lack of regulation</h3>
                     <ul className="list-disc pl-12 description">
                       <li>
-                        Potential displacement of development activities to more
-                        permissive jurisdictions
+                        Lack of standardization leading to security
+                        vulnerabilities
                       </li>
-                      <li>Transaction monitoring</li>
-                      <li>Selective transactions and private transactions</li>
+                      <li>
+                        Potential for concentration of power among mining
+                        entities
+                      </li>
+                      <li>
+                        Difficulty in addressing fraudulent or malicious
+                        activities
+                      </li>
                     </ul>
                   </div>
                 </li>
               </ul>
+              <li>
+                Does blockchain technology currently exist to fulfill these
+                obligations, and if so, what is it?
+                <ul className="list-disc pl-12 description">
+                  <li>
+                    Proof of Stake (PoS) consensus algorithms that require
+                    significantly less energy
+                  </li>
+                  <li>
+                    Byzantine Fault Tolerance (BFT) protocols ensuring fault
+                    tolerance
+                  </li>
+                  <li>
+                    Advanced encryption techniques for secure transactions and
+                    data privacy
+                  </li>
+                </ul>
+              </li>
             </div>
           </h2>
         </div>
@@ -924,7 +976,7 @@ function Matrix() {
           <div className="section">
             <div className="section-in">
               <img
-                src="Node.png"
+                src="computation.png"
                 alt="Logo"
                 style={{
                   display: "block",
@@ -965,8 +1017,8 @@ function Matrix() {
             className="text-3xl"
             style={{ maxWidth: "400px", color: "var(--hover-subtext)" }}
           >
-            This row applies only to the nodes or validators that are validating
-            the transactions for each block.
+            This row applies only to the blockchains with computation-intensive
+            consensus mechanisms.
           </h2>
         </div>
         <div className="section-col">
@@ -989,13 +1041,18 @@ function Matrix() {
         <div className="hover-text">
           <h2>
             <div className="text-left mb-5 pl-10">
-              <div className="header">Node / Validator Layer</div>
+              <div className="header">
+                Computation-intensive Consensus Mechanisms
+              </div>
               <ul className="pl-12">
                 <li className="topic">
                   <div>
                     <h3>Government Concerns</h3>
                     <ul className="list-disc pl-12 description">
-                      <li>Not reporting income</li>
+                      <li>
+                        Amount of electricity being used comparatively to
+                        similar technology that uses less
+                      </li>
                       <li>Fault tolerant consensus</li>
                       <li>Decryption Standards</li>
                     </ul>
@@ -1007,9 +1064,12 @@ function Matrix() {
                   <div>
                     <h3>Consumer Risks</h3>
                     <ul className="list-disc pl-12 description">
-                      <li>Private Transactions</li>
-                      <li>Selective Transactions</li>
-                      <li>MEV Protection</li>
+                      <li>
+                        High energy consumption leading to environmental
+                        concerns
+                      </li>
+                      <li>Potential centralization of mining power</li>
+                      <li>Vulnerability to 51% attacks</li>
                     </ul>
                   </div>
                 </li>
@@ -1020,12 +1080,16 @@ function Matrix() {
                     <h3>Cons to over-regulation</h3>
                     <ul className="list-disc pl-12 description">
                       <li>
-                        Potential centralization of the nodes / validators
-                        layer.
+                        Stifling innovation and development of energy-efficient
+                        consensus mechanisms
                       </li>
                       <li>
-                        Potential displacement of development activities to more
-                        permissive jurisdictions
+                        Driving blockchain projects to operate in jurisdictions
+                        with more favorable regulations
+                      </li>
+                      <li>
+                        Disincentivizing network participation due to excessive
+                        compliance requirements
                       </li>
                     </ul>
                   </div>
@@ -1037,7 +1101,8 @@ function Matrix() {
                     <h3>Cons to lack of regulation</h3>
                     <ul className="list-disc pl-12 description">
                       <li>
-                        not being able to update or edit fraudulent transactions
+                        Lack of standardization leading to security
+                        vulnerabilities
                       </li>
                     </ul>
                   </div>
@@ -1049,8 +1114,19 @@ function Matrix() {
                     Does blockchain technology currently exist to fulfill these
                     obligations, and if so, what is it?
                   </h3>
-
                   <ul className="list-disc pl-12 description"></ul>
+                  <li>
+                    Proof of Stake (PoS) consensus algorithms that require
+                    significantly less energy
+                  </li>
+                  <li>
+                    Byzantine Fault Tolerance (BFT) protocols ensuring fault
+                    tolerance
+                  </li>
+                  <li>
+                    Advanced encryption techniques for secure transactions and
+                    data privacy
+                  </li>
                 </li>
               </ul>
             </div>
