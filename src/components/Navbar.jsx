@@ -169,7 +169,7 @@ export default function Navbar() {
         }
         
     .NavLink {
-        font-size: 1.2em; 
+        font-size: 1em; 
       }
 
         .product:hover .effect-1,

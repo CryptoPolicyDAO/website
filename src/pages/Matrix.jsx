@@ -491,7 +491,7 @@ function Matrix() {
           <div className="section">
             <div className="section-in">
               <img
-                src="e10.png"
+                src="s1.png"
                 alt="Logo"
                 style={{
                   display: "block",
@@ -532,8 +532,8 @@ function Matrix() {
             className="text-3xl"
             style={{ maxWidth: "400px", color: "var(--hover-subtext)" }}
           >
-            This row applies only to companies that are producing the
-            electricity that powers the blockchain.
+            This row applies only to the layer of the blockchain where
+            transactions settle permanently.
           </h2>
         </div>
         <div className="section-col">
@@ -631,6 +631,426 @@ function Matrix() {
                       data privacy
                     </li>
                   </ul>
+                </li>
+              </ul>
+            </div>
+          </h2>
+        </div>
+        <div className="section-col" id="section1">
+          <div className="section">
+            <div className="section-in">
+              <div
+                className="image1" // Apply the className for background image styles
+                style={{
+                  width: "150px",
+                  height: "150px", // Set a specific height to ensure visibility
+                  margin: "0 auto",
+                  backgroundImage: "var(--image1)", // Set the background image using CSS variable
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat", // Ensure the background image isn't repeated
+                }}
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div className="hover-text">
+          <h2>
+            <div className="text-left mb-5 pl-10">
+              <div className="header">Node / Validator Layer</div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Government Concerns</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Not reporting income</li>
+                      <li>Fault tolerant consensus</li>
+                      <li>Decryption Standards</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Consumer Risks</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Private Transactions</li>
+                      <li>Selective Transactions</li>
+                      <li>MEV Protection</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to over-regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Centralization</li>
+                      <li>Inhibiting technological growth</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to lack of regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Potential displacement of development activities to more
+                        permissive jurisdictions
+                      </li>
+                      <li>Transaction monitoring</li>
+                      <li>Selective transactions and private transactions</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </h2>
+        </div>
+        <div className="section-col">
+          <div className="section">
+            <div className="section-in">
+              <img
+                src="Node.png"
+                alt="Logo"
+                style={{
+                  display: "block",
+                  width: "150px",
+                  height: "auto",
+                  margin: "0 auto",
+                }}
+              />
+            </div>
+          </div>
+          <div
+            className="line"
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "-3%",
+              transform: "translate(-50%, -50%)",
+              width: "100px",
+              height: "3px",
+              background: "var(--nav5)",
+            }}
+          ></div>
+          <div
+            className="line"
+            style={{
+              position: "absolute",
+              top: "50%",
+              right: "-1%",
+              transform: "translate(50%, 50%)",
+              width: "100px",
+              height: "3px",
+              background: "var(--nav5)",
+            }}
+          ></div>
+        </div>
+        <div className="hover-text">
+          <h2
+            className="text-3xl"
+            style={{ maxWidth: "400px", color: "var(--hover-subtext)" }}
+          >
+            This row applies only to the nodes or validators that are validating
+            the transactions for each block.
+          </h2>
+        </div>
+        <div className="section-col">
+          <div className="section">
+            <div className="section-in">
+              <div
+                className="image2" // Apply the className for background image styles
+                style={{
+                  width: "150px",
+                  height: "150px", // Set a specific height to ensure visibility
+                  margin: "0 auto",
+                  backgroundImage: "var(--image2)", // Set the background image using CSS variable
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat", // Ensure the background image isn't repeated
+                }}
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div className="hover-text">
+          <h2>
+            <div className="text-left mb-5 pl-10">
+              <div className="header">Node / Validator Layer</div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Government Concerns</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Not reporting income</li>
+                      <li>Fault tolerant consensus</li>
+                      <li>Decryption Standards</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Consumer Risks</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Private Transactions</li>
+                      <li>Selective Transactions</li>
+                      <li>MEV Protection</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to over-regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Potential centralization of the nodes / validators
+                        layer.
+                      </li>
+                      <li>
+                        Potential displacement of development activities to more
+                        permissive jurisdictions
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to lack of regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        not being able to update or edit fraudulent transactions
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <h3>
+                    Does blockchain technology currently exist to fulfill these
+                    obligations, and if so, what is it?
+                  </h3>
+
+                  <ul className="list-disc pl-12 description"></ul>
+                </li>
+              </ul>
+            </div>
+          </h2>
+        </div>
+        <div className="section-col" id="section1">
+          <div className="section">
+            <div className="section-in">
+              <div
+                className="image1" // Apply the className for background image styles
+                style={{
+                  width: "150px",
+                  height: "150px", // Set a specific height to ensure visibility
+                  margin: "0 auto",
+                  backgroundImage: "var(--image1)", // Set the background image using CSS variable
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat", // Ensure the background image isn't repeated
+                }}
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div className="hover-text">
+          <h2>
+            <div className="text-left mb-5 pl-10">
+              <div className="header">Node / Validator Layer</div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Government Concerns</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Not reporting income</li>
+                      <li>Fault tolerant consensus</li>
+                      <li>Decryption Standards</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Consumer Risks</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Private Transactions</li>
+                      <li>Selective Transactions</li>
+                      <li>MEV Protection</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to over-regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Centralization</li>
+                      <li>Inhibiting technological growth</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to lack of regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Potential displacement of development activities to more
+                        permissive jurisdictions
+                      </li>
+                      <li>Transaction monitoring</li>
+                      <li>Selective transactions and private transactions</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </h2>
+        </div>
+        <div className="section-col">
+          <div className="section">
+            <div className="section-in">
+              <img
+                src="Node.png"
+                alt="Logo"
+                style={{
+                  display: "block",
+                  width: "150px",
+                  height: "auto",
+                  margin: "0 auto",
+                }}
+              />
+            </div>
+          </div>
+          <div
+            className="line"
+            style={{
+              position: "absolute",
+              top: "50%",
+              left: "-3%",
+              transform: "translate(-50%, -50%)",
+              width: "100px",
+              height: "3px",
+              background: "var(--nav5)",
+            }}
+          ></div>
+          <div
+            className="line"
+            style={{
+              position: "absolute",
+              top: "50%",
+              right: "-1%",
+              transform: "translate(50%, 50%)",
+              width: "100px",
+              height: "3px",
+              background: "var(--nav5)",
+            }}
+          ></div>
+        </div>
+        <div className="hover-text">
+          <h2
+            className="text-3xl"
+            style={{ maxWidth: "400px", color: "var(--hover-subtext)" }}
+          >
+            This row applies only to the nodes or validators that are validating
+            the transactions for each block.
+          </h2>
+        </div>
+        <div className="section-col">
+          <div className="section">
+            <div className="section-in">
+              <div
+                className="image2" // Apply the className for background image styles
+                style={{
+                  width: "150px",
+                  height: "150px", // Set a specific height to ensure visibility
+                  margin: "0 auto",
+                  backgroundImage: "var(--image2)", // Set the background image using CSS variable
+                  backgroundSize: "contain",
+                  backgroundRepeat: "no-repeat", // Ensure the background image isn't repeated
+                }}
+              ></div>
+            </div>
+          </div>
+        </div>
+        <div className="hover-text">
+          <h2>
+            <div className="text-left mb-5 pl-10">
+              <div className="header">Node / Validator Layer</div>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Government Concerns</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Not reporting income</li>
+                      <li>Fault tolerant consensus</li>
+                      <li>Decryption Standards</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Consumer Risks</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>Private Transactions</li>
+                      <li>Selective Transactions</li>
+                      <li>MEV Protection</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to over-regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        Potential centralization of the nodes / validators
+                        layer.
+                      </li>
+                      <li>
+                        Potential displacement of development activities to more
+                        permissive jurisdictions
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <div>
+                    <h3>Cons to lack of regulation</h3>
+                    <ul className="list-disc pl-12 description">
+                      <li>
+                        not being able to update or edit fraudulent transactions
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul className="pl-12">
+                <li className="topic">
+                  <h3>
+                    Does blockchain technology currently exist to fulfill these
+                    obligations, and if so, what is it?
+                  </h3>
+
+                  <ul className="list-disc pl-12 description"></ul>
                 </li>
               </ul>
             </div>

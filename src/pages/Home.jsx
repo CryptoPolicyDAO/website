@@ -7,6 +7,7 @@ export default function Home() {
   const inlineStyles = `
     video {
       transition: transform 0.5s ease-in-out; /* Smooth transition */
+      border-radius: 20px;
     }
     video:hover {
       transform: scale(1.2); /* Zoomed scale - 1.2 times */
