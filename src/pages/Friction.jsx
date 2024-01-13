@@ -2,8 +2,8 @@ export default function Friction() {
   return (
     <div>
       <h1
-        className="mb-5 mt-40 text-center"
-        style={{ color: "var(--header-color)", fontSize: "3rem" }}
+        className="mb-5 mt-20 text-center"
+        style={{ color: "var(--header-color)", fontSize: "2rem" }}
       >
         Bureaucratic Research Model Summary
       </h1>
@@ -12,7 +12,7 @@ export default function Friction() {
         style={{
           color: "var(--description-color)",
           maxWidth: "900px",
-          fontSize: "1.2rem",
+          fontSize: "1rem",
         }}
       >
         <p>
@@ -70,6 +70,7 @@ export default function Friction() {
           risk to theft, but we will attempt to understand and mitigate these
           risks throughout our research and proposal of public policy.
         </p>
+        <br />
         <p>
           In summary, CryptoPolicyDAO would not propose public policy unless it
           satisfies all three variables above to their fullest concurrently. The
@@ -305,6 +306,7 @@ export default function Friction() {
             objective example of how blockchain technology can be utilized
             outside of being a token.
           </p>
+          <br />
           <h2>Part A:</h2>
           <p>
             These are the topics for you to update to your choice, though at
@@ -313,6 +315,7 @@ export default function Friction() {
             right of each topic are the final scores that are being aggregated
             from what is entered in Part C.
           </p>
+          <br />
           <h2>Part B:</h2>
           <p>
             These are the areas to research within each topic. Not all of the
@@ -320,8 +323,9 @@ export default function Friction() {
             are the ones we believe are relevant to the research topics we are
             choosing for ourselves.
           </p>
+          <br />
           <h2>Part C:</h2>
-          <p>
+          <p className="mb-20 ">
             This is the matrix that we believe fits accordingly to the topics
             and areas we have chosen to research. Of course, many questions will
             need to be revised, though this matrix provides a framework in order

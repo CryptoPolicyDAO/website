@@ -29,7 +29,7 @@ function Portfolio() {
   const [chainId, setChainId] = useState(250);
   const [publicKey] = useState("0xD156382c8B7CF309865c7ACAc5Caea323f8C30A4");
   const [apiKey, setApiKey] = useState("");
-  const [balances, setBalances] = useState([]); // State to hold token balances
+  const [balances] = useState([]); // State to hold token balances
   const [selectedChain, setSelectedChain] = useState(); // State to hold selected blockchain
   const [chains, setChains] = useState([]);
 
@@ -101,10 +101,10 @@ function Portfolio() {
 
   const filteredTokens = data.filter((token) =>
     [
-      "FTM0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
-      "SCREAM0xe0654c8e6fd4d733349ac7e09f6f23da256bf475",
-      "DAI0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
-      "WFTM0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
+      "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "0xe0654c8e6fd4d733349ac7e09f6f23da256bf475",
+      "0x8d11ec38a3eb5e956b052f67da8bdc9bef8abf3e",
+      "0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83",
     ].includes(token.contract_ticker_symbol)
   );
 
@@ -114,11 +114,19 @@ function Portfolio() {
 
   return (
     <div className="page-container mt-20">
+      <h1
+        style={{
+          color: "var(--header-color)",
+          fontSize: "1.5rem",
+        }}
+      >
+        Treasury Balance
+      </h1>
       <div className="paragraph-container mt-10">
         <p
           style={{
-            color: "var(--header-color)",
-            fontSize: "1.7rem",
+            color: "var(--description-color)",
+            fontSize: "1.5rem",
             maxWidth: "800px",
             marginBottom: "20px",
           }}
@@ -132,20 +140,15 @@ function Portfolio() {
         <p
           style={{
             color: "var(--header-color)",
-            fontSize: "1.7rem",
+            fontSize: "1.5rem",
             maxWidth: "800px",
-            marginBottom: "20px",
           }}
         >
           By default it will display the values on Fantom first, but you can
           select other chains below:
         </p>
       </div>
-      <div
-        style={{
-          marginBottom: "40px",
-        }}
-      >
+      <div>
         {chains && chains.length > 0 ? (
           <div>
             {console.log("Chains:", chains)}
@@ -163,7 +166,7 @@ function Portfolio() {
       <p
         style={{
           color: "var(--description-color)",
-          fontSize: "1.7rem",
+          fontSize: "1.5rem",
           maxWidth: "800px",
           marginBottom: "20px",
         }}
@@ -175,7 +178,7 @@ function Portfolio() {
       <p
         style={{
           color: "var(--description-color)",
-          fontSize: "1.7rem",
+          fontSize: "1.5rem",
           maxWidth: "800px",
           marginBottom: "20px",
         }}
@@ -184,7 +187,7 @@ function Portfolio() {
       </p>
       <div className="chart-container mb-40">
         <LineChart
-          width={1200}
+          width={1000}
           height={500}
           data={data}
           margin={{

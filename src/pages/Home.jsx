@@ -14,13 +14,13 @@ export default function Home() {
   `;
 
   return (
-    <div className="pt-40 flex items-center">
+    <div className="pt-20 flex items-center">
       <div className="w-1/2 text-center pl-20">
         <video
           autoPlay
           loop
           muted
-          width="690"
+          width="490"
           height="580"
           onMouseEnter={() => setIsZoomed(true)}
           onMouseLeave={() => setIsZoomed(false)}
@@ -29,24 +29,24 @@ export default function Home() {
           <source src={videoFile} type="video/mp4" />
         </video>
       </div>
-      <div className="w-1/2 text-left" style={{ maxWidth: "800px" }}>
+      <div className="w-1/2 text-left" style={{ maxWidth: "600px" }}>
         <p
           className="text-left"
-          style={{ color: "var(--header-color)", fontSize: "3rem" }}
+          style={{ color: "var(--header-color)", fontSize: "2rem" }}
         >
           Crypto Policy DAO
         </p>
         <br></br>
         <p
           className="text-left"
-          style={{ color: "var(--header-color)", fontSize: "2rem" }}
+          style={{ color: "var(--header-color)", fontSize: "1.5rem" }}
         >
           Web3-friendly Regulatory Think Tank
         </p>
 
         <br></br>
         <div className="text-left">
-          <p style={{ color: "var(--description-color)", fontSize: "1.2rem" }}>
+          <p style={{ color: "var(--description-color)", fontSize: "1rem" }}>
             Our mission is to be a platform for policymakers and blockchain
             builders to collaborate on the technical and regulatory research of
             blockchain technologies that promote a web3-friendly regulatory
@@ -55,7 +55,7 @@ export default function Home() {
             understanding and creating web3-friendly regulation.
           </p>
           <br />
-          <p style={{ color: "var(--content-color)", fontSize: "1.2rem" }}>
+          <p style={{ color: "var(--content-color)", fontSize: "1rem" }}>
             The underlying technology propelling the blockchain will
             continuously advance regardless of any political regulation, and for
             us to capture the benefits of emerging and innovative blockchain

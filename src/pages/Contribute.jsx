@@ -37,14 +37,14 @@ export default function Contribute() {
   return (
     <div>
       <h1
-        className="mb-5 mt-40 text-center text-4xl"
-        style={{ color: "var(--header-color)" }}
+        className="mb-5 mt-20 text-center"
+        style={{ color: "var(--header-color)", fontSize: "2rem" }}
       >
         Contribute and Join
       </h1>
       <p
-        className="mb-10 mt-10 text-2xl text-center"
-        style={{ color: "var(--description-color)" }}
+        className="mb-10 mt-10 text-center"
+        style={{ color: "var(--description-color)", fontSize: "1.5rem" }}
       >
         Join Crypto Policy DAO to enhance regulatory clarity and to promote
         blockchain innovation
@@ -55,7 +55,7 @@ export default function Contribute() {
           style={{
             color: "var(--content-color)",
             maxWidth: "900px",
-            fontSize: "1.2rem",
+            fontSize: "1rem",
           }}
         >
           Interested in contributing to regulatory innovation in the blockchain
@@ -68,7 +68,7 @@ export default function Contribute() {
           style={{
             color: "var(--content-color)",
             maxWidth: "900px",
-            fontSize: "1.2rem",
+            fontSize: "1rem",
           }}
         >
           To become a part of our community, clone our GitHub repository and
@@ -77,11 +77,11 @@ export default function Contribute() {
           access to our members-only chatroom for further collaboration.
         </p>
         <p
-          className="mb-10 text-center mx-auto"
+          className="text-center mx-auto"
           style={{
             color: "var(--content-color)",
             maxWidth: "900px",
-            fontSize: "1.2rem",
+            fontSize: "1rem",
           }}
         >
           As the DAO earns revenue for its crypto lobbying efforts, all members
@@ -92,14 +92,17 @@ export default function Contribute() {
       <div
         className="video-container"
         style={{
-          display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          width: "100%",
-          marginBottom: "50px",
         }}
       >
-        <div className="video-container">
+        <div
+          style={{
+            justifyContent: "center",
+            alignItems: "center",
+            width: "50%",
+          }}
+        >
           <video
             autoPlay
             loop
