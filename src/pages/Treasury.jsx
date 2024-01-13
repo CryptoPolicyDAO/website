@@ -117,7 +117,7 @@ function Portfolio() {
       <h1
         style={{
           color: "var(--header-color)",
-          fontSize: "1.5rem",
+          fontSize: "2rem",
         }}
       >
         Treasury Balance

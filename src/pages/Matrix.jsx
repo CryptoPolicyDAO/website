@@ -111,10 +111,8 @@ function Matrix() {
           align-self: center;
       }
       .hover-text h2{
-        font-family: 'Poppins', sans-serif;
-
-        
-        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;        
+        line-height: 1.2;
         color: var(--effect-2);
         opacity: 0;
         transform: scale(0.8);
@@ -164,12 +162,12 @@ function Matrix() {
 
           .topic {
             color: var(--hover-text);
-            font-size: 1.5rem;
+            font-size: 1rem;
           }
 
           .description {
             color: var(--hover-subtext);
-            font-size: 1.5rem;
+            font-size: 1rem;
           }
 
           .image1 {
