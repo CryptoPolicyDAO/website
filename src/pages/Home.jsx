@@ -17,20 +17,28 @@ export default function Home() {
       {/* Mobile layout (max-width: 768px) */}
       <div className="md:hidden">
         <div className="container mx-auto pt-20 pb-20 justify-center items-center">
-          <p className="header pb-10 ">Crypto Policy DAO</p>
+          <p
+            className="header pb-10 "
+            style={{ color: "var(--header-color)", fontSize: "2rem" }}
+          >
+            Crypto Policy DAO
+          </p>
           <div className="video-center video-container">
-            <video autoPlay loop muted width="390" height="480">
+            <video autoPlay loop muted width="300" height="400">
               <source src={videoFile} type="video/mp4" />
             </video>
           </div>
           <div className="text-center">
             <br />
-            <p className="sub-header text-center ">
+            <p
+              className="sub-header text-center "
+              style={{ color: "var(--header-color)", fontSize: "1.5rem" }}
+            >
               Web3-friendly Regulatory Think Tank
             </p>
 
             <br />
-            <div className="text-center">
+            <div className="text-center pl-2 pr-2">
               <p className="content1">
                 Our mission is to be a platform for policymakers and blockchain
                 builders to collaborate on the technical and regulatory research
@@ -71,14 +79,14 @@ export default function Home() {
         <div className="w-1/2 text-left max-w-600">
           <p
             className="text-left text-2xl"
-            style={{ color: "var(--header-color)" }}
+            style={{ color: "var(--header-color)", fontSize: "2rem" }}
           >
             Crypto Policy DAO
           </p>
           <br />
           <p
             className="text-left text-xl"
-            style={{ color: "var(--header-color)" }}
+            style={{ color: "var(--header-color)", fontSize: "1.5rem" }}
           >
             Web3-friendly Regulatory Think Tank
           </p>

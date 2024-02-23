@@ -2,6 +2,15 @@ import Matrix from "./Matrix";
 import MatrixLongForm from "./MatrixLongForm";
 
 export default function Contribute() {
+  const inlineStyles = `
+
+      @media (max-width: 767px) {
+      .Matrix {
+        display: none;
+      }
+    }
+  `;
+
   return (
     <div>
       <h1
@@ -63,6 +72,7 @@ export default function Contribute() {
       <Matrix />
       <br></br>
       <MatrixLongForm />
+      <style>{inlineStyles}</style>
     </div>
   );
 }
