@@ -29,7 +29,7 @@ function Matrix() {
         margin-right: auto;
         margin-left: auto;
         max-width: 940px;
-        padding: 75px 0;
+        padding: 50px 0;
       }
       .section-row{
         display: -ms-flexbox;
@@ -298,7 +298,7 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -310,7 +310,7 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -520,7 +520,7 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -532,7 +532,7 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -753,7 +753,7 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -765,7 +765,7 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -997,7 +997,7 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -1009,7 +1009,7 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -1250,7 +1250,7 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -1262,7 +1262,7 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -1505,7 +1505,7 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -1517,7 +1517,7 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -1768,7 +1768,7 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -1780,7 +1780,7 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -2015,7 +2015,7 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -2027,7 +2027,7 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -2256,7 +2256,7 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -2268,7 +2268,7 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -2480,7 +2480,7 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -2492,7 +2492,7 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -2700,7 +2700,7 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
@@ -2712,7 +2712,7 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "75px",
+              width: "50px",
               height: "2px",
               background: "var(--nav5)",
             }}
