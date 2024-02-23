@@ -29,7 +29,7 @@ function Matrix() {
         margin-right: auto;
         margin-left: auto;
         max-width: 940px;
-        padding: 100px 0;
+        padding: 75px 0;
       }
       .section-row{
         display: -ms-flexbox;
@@ -144,14 +144,14 @@ function Matrix() {
           }
           .image1 {
             background-image: var(--image1);
-            width: "100px",
-            height: "100px",
+            width: "99px",
+            height: "99px",
           }
 
           .image2 {
             background-image: var(--image2);
-            width: "100px",
-            height: "100px",
+            width: "99px",
+            height: "99px",
           }
         }
 
@@ -200,8 +200,8 @@ function Matrix() {
               <div
                 className="image1" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image1)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -284,7 +284,7 @@ function Matrix() {
                 alt="Logo"
                 style={{
                   display: "block",
-                  width: "100px",
+                  width: "99px",
                   height: "auto",
                   margin: "0 auto",
                 }}
@@ -298,8 +298,8 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -310,8 +310,8 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -331,8 +331,8 @@ function Matrix() {
               <div
                 className="image2" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image2)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -411,8 +411,8 @@ function Matrix() {
               <div
                 className="image1" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image1)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -506,7 +506,7 @@ function Matrix() {
                 alt="Logo"
                 style={{
                   display: "block",
-                  width: "100px",
+                  width: "99px",
                   height: "auto",
                   margin: "0 auto",
                 }}
@@ -520,8 +520,8 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -532,8 +532,8 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -553,8 +553,8 @@ function Matrix() {
               <div
                 className="image2" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image2)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -653,8 +653,8 @@ function Matrix() {
               <div
                 className="image1" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image1)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -739,7 +739,7 @@ function Matrix() {
                 alt="Logo"
                 style={{
                   display: "block",
-                  width: "100px",
+                  width: "99px",
                   height: "auto",
                   margin: "0 auto",
                 }}
@@ -753,8 +753,8 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -765,8 +765,8 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -786,8 +786,8 @@ function Matrix() {
               <div
                 className="image2" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image2)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -873,8 +873,8 @@ function Matrix() {
               <div
                 className="image1" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image1)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -983,7 +983,7 @@ function Matrix() {
                 alt="Logo"
                 style={{
                   display: "block",
-                  width: "100px",
+                  width: "99px",
                   height: "auto",
                   margin: "0 auto",
                 }}
@@ -997,8 +997,8 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -1009,8 +1009,8 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -1030,8 +1030,8 @@ function Matrix() {
               <div
                 className="image2" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image2)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -1130,8 +1130,8 @@ function Matrix() {
               <div
                 className="image1" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image1)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -1236,7 +1236,7 @@ function Matrix() {
                 alt="Logo"
                 style={{
                   display: "block",
-                  width: "100px",
+                  width: "99px",
                   height: "auto",
                   margin: "0 auto",
                 }}
@@ -1250,8 +1250,8 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -1262,8 +1262,8 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -1283,8 +1283,8 @@ function Matrix() {
               <div
                 className="image2" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image2)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -1387,8 +1387,8 @@ function Matrix() {
               <div
                 className="image1" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image1)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -1491,7 +1491,7 @@ function Matrix() {
                 alt="Logo"
                 style={{
                   display: "block",
-                  width: "100px",
+                  width: "99px",
                   height: "auto",
                   margin: "0 auto",
                 }}
@@ -1505,8 +1505,8 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -1517,8 +1517,8 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -1538,8 +1538,8 @@ function Matrix() {
               <div
                 className="image2" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image2)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -1640,8 +1640,8 @@ function Matrix() {
               <div
                 className="image1" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image1)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -1754,7 +1754,7 @@ function Matrix() {
                 alt="Logo"
                 style={{
                   display: "block",
-                  width: "100px",
+                  width: "99px",
                   height: "auto",
                   margin: "0 auto",
                 }}
@@ -1768,8 +1768,8 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -1780,8 +1780,8 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -1801,8 +1801,8 @@ function Matrix() {
               <div
                 className="image2" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image2)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -1880,8 +1880,8 @@ function Matrix() {
               <div
                 className="image1" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image1)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -2001,7 +2001,7 @@ function Matrix() {
                 alt="Logo"
                 style={{
                   display: "block",
-                  width: "100px",
+                  width: "99px",
                   height: "auto",
                   margin: "0 auto",
                 }}
@@ -2015,8 +2015,8 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -2027,8 +2027,8 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -2047,8 +2047,8 @@ function Matrix() {
               <div
                 className="image2" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image2)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -2113,8 +2113,8 @@ function Matrix() {
               <div
                 className="image1" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image1)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -2242,7 +2242,7 @@ function Matrix() {
                 alt="Logo"
                 style={{
                   display: "block",
-                  width: "100px",
+                  width: "99px",
                   height: "auto",
                   margin: "0 auto",
                 }}
@@ -2256,8 +2256,8 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -2268,8 +2268,8 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -2289,8 +2289,8 @@ function Matrix() {
               <div
                 className="image2" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image2)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -2355,8 +2355,8 @@ function Matrix() {
               <div
                 className="image1" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image1)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -2466,7 +2466,7 @@ function Matrix() {
                 alt="Logo"
                 style={{
                   display: "block",
-                  width: "100px",
+                  width: "99px",
                   height: "auto",
                   margin: "0 auto",
                 }}
@@ -2480,8 +2480,8 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -2492,8 +2492,8 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -2513,8 +2513,8 @@ function Matrix() {
               <div
                 className="image2" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image2)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -2579,8 +2579,8 @@ function Matrix() {
               <div
                 className="image1" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image1)", // Set the background image using CSS variable
                   backgroundSize: "contain",
@@ -2686,7 +2686,7 @@ function Matrix() {
                 alt="Logo"
                 style={{
                   display: "block",
-                  width: "100px",
+                  width: "99px",
                   height: "auto",
                   margin: "0 auto",
                 }}
@@ -2700,8 +2700,8 @@ function Matrix() {
               top: "50%",
               left: "-3%",
               transform: "translate(-50%, -50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -2712,8 +2712,8 @@ function Matrix() {
               top: "50%",
               right: "-1%",
               transform: "translate(50%, 50%)",
-              width: "100px",
-              height: "3px",
+              width: "75px",
+              height: "2px",
               background: "var(--nav5)",
             }}
           ></div>
@@ -2733,8 +2733,8 @@ function Matrix() {
               <div
                 className="image2" // Apply the className for background image styles
                 style={{
-                  width: "100px",
-                  height: "100px", // Set a specific height to ensure visibility
+                  width: "99px",
+                  height: "99px", // Set a specific height to ensure visibility
                   margin: "0 auto",
                   backgroundImage: "var(--image2)", // Set the background image using CSS variable
                   backgroundSize: "contain",
