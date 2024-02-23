@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../App.css";
 
 function MatrixLongForm() {
   const [isExpanded, setIsExpanded] = useState(false);

@@ -37,7 +37,7 @@ export default function Navbar() {
         <nav className="container mx-auto flex justify-between items-center">
           <div className="relative selectbutton">
             <button
-              className="px-3 py-1 mr-4 bg-gray-200 rounded-md"
+              className="px-3 py-1 mr-4 rounded-md"
               onClick={toggleThemes}
               style={{
                 color: "var(--button-text)",
@@ -49,7 +49,7 @@ export default function Navbar() {
             </button>
 
             {showThemes && (
-              <div className=" absolute z-10 center-0 top-10 bg-white border border-gray-300 rounded-md shadow-lg theme-dropdown-options">
+              <div className=" absolute z-10 center-0 top-10 border border-gray-300 rounded-md shadow-lg theme-dropdown-options">
                 <button
                   className="block w-full py-2 text-left px-4 original-button-hover"
                   style={{ color: "#067288" }}
