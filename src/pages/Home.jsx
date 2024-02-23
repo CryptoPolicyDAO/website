@@ -63,7 +63,7 @@ export default function Home() {
 
       {/* Desktop layout (min-width: 768px) */}
       <div className="pt-10 hidden md:flex">
-        <div className="w-1/2 text-center pl-20">
+        <div className="w-1/2 text-center pl-20 pt-5">
           <video
             autoPlay
             loop
@@ -93,7 +93,7 @@ export default function Home() {
           </p>
           <br />
           <div className="text-left">
-            <p style={{ color: "var(--description-color)" }}>
+            <p style={{ color: "var(--description-color)", maxWidth: "550px" }}>
               Our mission is to be a platform for policymakers and blockchain
               builders to collaborate on the technical and regulatory research
               of blockchain technologies that promote a web3-friendly regulatory
@@ -102,7 +102,7 @@ export default function Home() {
               understanding and creating web3-friendly regulation.
             </p>
             <br />
-            <p style={{ color: "var(--content-color)" }}>
+            <p style={{ color: "var(--content-color)", maxWidth: "550px" }}>
               The underlying technology propelling the blockchain will
               continuously advance regardless of any political regulation, and
               for us to capture the benefits of emerging and innovative

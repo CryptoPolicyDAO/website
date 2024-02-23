@@ -35,7 +35,7 @@ export default function Navbar() {
     <div className="h-full">
       <header className="w-full text-white p-4 fixed top-0 z-50">
         <nav className="container mx-auto flex justify-between items-center">
-          <div className="relative">
+          <div className="relative selectbutton">
             <button
               className="px-3 py-1 mr-4 bg-gray-200 rounded-md"
               onClick={toggleThemes}
@@ -49,7 +49,7 @@ export default function Navbar() {
             </button>
 
             {showThemes && (
-              <div className="absolute z-10 center-0 top-10 bg-white border border-gray-300 rounded-md shadow-lg theme-dropdown-options">
+              <div className=" absolute z-10 center-0 top-10 bg-white border border-gray-300 rounded-md shadow-lg theme-dropdown-options">
                 <button
                   className="block w-full py-2 text-left px-4 original-button-hover"
                   style={{ color: "#067288" }}
@@ -125,7 +125,7 @@ export default function Navbar() {
             >
               <div className="effect-1"></div>
               <div className="effect-2"></div>
-              <span style={{ color: "var(--nav5)" }}>Future Topics</span>
+              <span style={{ color: "var(--nav5)" }}>Blog</span>
             </NavLink>
             <NavLink
               className={`mr-10 NavLink product ${
@@ -169,7 +169,7 @@ export default function Navbar() {
         }
         
     .NavLink {
-        font-size: 1em; 
+        font-size: 0.8em; 
       }
 
         .product:hover .effect-1,
@@ -230,6 +230,10 @@ export default function Navbar() {
             top: 0;
             left: 8%;
           }
+        }
+
+        .selectbutton {
+          font-size: 0.8em; 
         }
         
         .original-button-hover:hover {
