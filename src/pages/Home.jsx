@@ -19,16 +19,7 @@ export default function Home() {
         <div className="container mx-auto pt-20 pb-20 justify-center items-center">
           <p className="header pb-10 ">Crypto Policy DAO</p>
           <div className="video-center video-container">
-            <video
-              autoPlay
-              loop
-              muted
-              width="490"
-              height="580"
-              onMouseEnter={() => setIsZoomed(true)}
-              onMouseLeave={() => setIsZoomed(false)}
-              className={isZoomed ? "zoomed" : ""}
-            >
+            <video autoPlay loop muted width="390" height="480">
               <source src={videoFile} type="video/mp4" />
             </video>
           </div>
@@ -39,7 +30,7 @@ export default function Home() {
             </p>
 
             <br />
-            <div className="text-center pl-40 pr-40">
+            <div className="text-center">
               <p className="content1">
                 Our mission is to be a platform for policymakers and blockchain
                 builders to collaborate on the technical and regulatory research

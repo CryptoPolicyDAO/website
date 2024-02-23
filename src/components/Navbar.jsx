@@ -129,17 +129,6 @@ export default function Navbar() {
             </NavLink>
             <NavLink
               className={`mr-10 NavLink product ${
-                isActive("/Matrix") ? "hidden" : ""
-              }`}
-              to="/Matrix"
-              activeClassName="active-link"
-            >
-              <div className="effect-1"></div>
-              <div className="effect-2"></div>
-              <span style={{ color: "var(--nav6)" }}>Matrix</span>
-            </NavLink>
-            <NavLink
-              className={`mr-10 NavLink product ${
                 isActive("/Treasury") ? "hidden" : ""
               }`}
               to="/Treasury"
