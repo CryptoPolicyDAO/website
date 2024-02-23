@@ -11,6 +11,14 @@ export default function Home() {
     video:hover {
       transform: scale(1.2); /* Zoomed scale - 1.2 times */
     }
+
+    @media (max-width: 767px) {
+      .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
   `;
   return (
     <div className="container pt-20">
