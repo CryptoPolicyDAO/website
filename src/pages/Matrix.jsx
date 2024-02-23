@@ -142,7 +142,19 @@ function Matrix() {
             top: 0;
             z-index: 1;
           }
+          .image1 {
+            background-image: var(--image1);
+            width: "50px",
+            height: "50px",
+          }
+
+          .image2 {
+            background-image: var(--image2);
+            width: "50px",
+            height: "50px",
+          }
         }
+
         .section-row .section-col {
           position: relative;
           width: 100%;
@@ -172,7 +184,6 @@ function Matrix() {
 
           .image1 {
             background-image: var(--image1);
-            
           }
 
           .image2 {
