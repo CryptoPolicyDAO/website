@@ -20,7 +20,9 @@ function MatrixLongForm() {
           backgroundColor: "var(--button-text)",
         }}
       >
-        {isExpanded ? "Hide Blockchain Matrix" : "Show Blockchain Matrix"}
+        {isExpanded
+          ? "Hide Blockchain Matrix Long Form"
+          : "Show Blockchain Matrix Long Form"}
       </button>
 
       {isExpanded && (

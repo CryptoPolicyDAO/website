@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
 import "../App.css";
 
@@ -6,22 +6,24 @@ export default function Navbar() {
   const [showThemes, setShowThemes] = useState(false);
   const [selectedTheme, setSelectedTheme] = useState("Select Theme");
   const location = useLocation();
+  const toggleRef = useRef(null); // Reference to the toggle button
 
   // This function checks if the given path is the current location
   const isActive = (path) => location.pathname === path;
+
   const toggleThemes = () => {
     setShowThemes(!showThemes);
   };
 
   const selectTheme = (selectedTheme) => {
     document.documentElement.setAttribute("data-theme", selectedTheme);
-    setShowThemes(true);
     setSelectedTheme(selectedTheme); // Update the state with selected theme name
+    setShowThemes(false); // Close the themes dropdown
   };
 
   const handleClickOutside = (event) => {
-    const toggleButtonElement = document.querySelector(".relative");
-    if (!toggleButtonElement.contains(event.target)) {
+    // Check if the click is outside the toggle button and the dropdown
+    if (toggleRef.current && !toggleRef.current.contains(event.target)) {
       setShowThemes(false);
     }
   };
@@ -37,7 +39,8 @@ export default function Navbar() {
         <nav className="container mx-auto flex justify-between items-center">
           <div className="relative selectbutton">
             <button
-              className="px-3 py-1 mr-4 rounded-md"
+              ref={toggleRef}
+              className="mr-4 rounded-md"
               onClick={toggleThemes}
               style={{
                 color: "var(--button-text)",
@@ -49,7 +52,7 @@ export default function Navbar() {
             </button>
 
             {showThemes && (
-              <div className=" absolute z-10 center-0 top-10 border border-gray-300 rounded-md shadow-lg theme-dropdown-options">
+              <div className="absolute z-10 center-0 top-10 border border-gray-300 rounded-md shadow-lg theme-dropdown-options">
                 <button
                   className="block w-full py-2 text-left px-4 original-button-hover"
                   style={{ color: "#067288" }}
