@@ -22,7 +22,7 @@ const Footer = () => {
             <img
               src="/twitter.webp"
               alt="Twitter Icon"
-              width="30"
+              width="50"
               height="30"
               className=""
             />
@@ -36,7 +36,7 @@ const Footer = () => {
             <img
               src="/github.png"
               alt="GitHub Icon"
-              width="30"
+              width="50"
               height="30"
               className=""
             />
@@ -50,7 +50,7 @@ const Footer = () => {
             <img
               src="/discord.png"
               alt="Discord Icon"
-              width="30"
+              width="50"
               height="30"
               className=""
             />
