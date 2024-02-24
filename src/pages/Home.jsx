@@ -19,6 +19,11 @@ export default function Home() {
       justify-content: center;
       align-items: center;
     }
+          .content1,
+      .content2 {
+        max-width: 300px; /* Adjust as needed for desired width */
+      }
+    }
 
   `;
   return (

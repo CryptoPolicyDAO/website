@@ -78,7 +78,7 @@ function MatrixLongForm() {
             <div>Exchange Layer</div>
             <div>Protocol Layer</div>
             <div>Application Layer</div>
-            <div>IPFS (if used)</div>
+            <div>Permanent Storage Layer</div>
             <div>Internet Browser</div>
             <div>Developer</div>
             <div>Programming Language Auditor</div>
