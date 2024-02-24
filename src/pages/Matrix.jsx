@@ -3237,7 +3237,7 @@ function Matrix() {
         <div className="hover-text">
           <h2>
             <div className="text-left mb-5 pl-10">
-              <div className="header">Protocol Layer</div>
+              <div className="header">Application Layer</div>
               <ul className="pl-12">
                 <li className="topic">
                   <div>
@@ -3344,8 +3344,8 @@ function Matrix() {
             className="text-3xl"
             style={{ maxWidth: "400px", color: "var(--hover-subtext)" }}
           >
-            This row applies to companies that operate as a project deployed on
-            the blockchain.
+            This row applies to companies that apps giving access to other
+            protocols that are on the blockchain.
           </h2>
         </div>
         <div className="section-col">
@@ -3368,7 +3368,7 @@ function Matrix() {
         <div className="hover-text">
           <h2>
             <div className="text-left mb-5 pl-10">
-              <div className="header">Protocol Layer</div>
+              <div className="header">Application Layer</div>
               <ul className="pl-12">
                 <li className="topic">
                   <div>

@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div>
+        <div className="flex items-center mb-4 md:mb-0">
           <NavLink
             to="/contribute"
             className="rounded-md border border-black px-2 py-1 md:px-4 md:py-2 hover:bg-gray-200"
@@ -57,7 +57,7 @@ const Footer = () => {
             href="https://discord.gg/fX7UaC4A5M"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-purple-500" // Adjust hover color as needed
+            className="hover:text-purple-500"
           >
             <img
               src="/discord.png"
