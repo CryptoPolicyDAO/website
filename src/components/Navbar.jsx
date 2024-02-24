@@ -4,7 +4,9 @@ import "../App.css";
 
 export default function Navbar() {
   const [showThemes, setShowThemes] = useState(false);
-  const [selectedTheme, setSelectedTheme] = useState("Select Theme");
+  const [selectedTheme, setSelectedTheme] = useState(
+    document.documentElement.getAttribute("data-theme") || "Light"
+  );
   const location = useLocation();
   const toggleRef = useRef(null); // Reference to the toggle button
 
@@ -16,6 +18,13 @@ export default function Navbar() {
     document.documentElement.setAttribute("data-theme", newTheme);
     setSelectedTheme(newTheme); // Update the state with selected theme name
   };
+
+  useEffect(() => {
+    // Set the selected theme based on the initial theme of the app
+    setSelectedTheme(
+      document.documentElement.getAttribute("data-theme") || "Light"
+    );
+  }, []);
 
   return (
     <div className="h-full">

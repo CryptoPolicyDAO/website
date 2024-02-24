@@ -3,16 +3,22 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer mt-20" style={{ backgroundColor: "var(--bac4)" }}>
-      <div className="container flex items-center justify-between px-8 py-2">
-        <div className="flex items-center">
+      <div className="container flex flex-col md:flex-row items-center justify-between px-8 py-2">
+        <div className="flex items-center mb-4 md:mb-0">
           <img src="/logo.png" alt="Twitter Icon" width="50" height="50" />
-          <p style={{ color: "var(--header-color)" }}>Crypto Policy DAO</p>
+          <p
+            className="ml-2 whitespace-nowrap"
+            style={{ color: "var(--header-color)" }}
+          >
+            Crypto Policy DAO
+          </p>
         </div>
-        <div className="container px-4 pb-1">
+
+        <div className="container pb-1">
           <NavLink
             to="/contribute"
-            className="rounded-md border border-black px-4 py-2 hover:bg-gray-200"
-            style={{ color: "var(--header-color)" }}
+            className="rounded-md border border-black px-2 py-1 md:px-4 md:py-2 hover:bg-gray-200"
+            style={{ color: "var(--header-color)", fontSize: "0.8rem" }}
           >
             Contribute and Join
           </NavLink>
@@ -27,8 +33,8 @@ const Footer = () => {
             <img
               src="/twitter.webp"
               alt="Twitter Icon"
-              width="50"
-              height="30"
+              width="80"
+              height="40"
               className=""
             />
           </a>
@@ -41,8 +47,8 @@ const Footer = () => {
             <img
               src="/github.png"
               alt="GitHub Icon"
-              width="50"
-              height="30"
+              width="80"
+              height="40"
               className=""
             />
           </a>
@@ -55,8 +61,8 @@ const Footer = () => {
             <img
               src="/discord.png"
               alt="Discord Icon"
-              width="50"
-              height="30"
+              width="80"
+              height="40"
               className=""
             />
           </a>
