@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="container pb-1">
+        <div className="container pb-1 md:pb-3">
           <NavLink
             to="/contribute"
             className="rounded-md border border-black px-2 py-1 md:px-4 md:py-2 hover:bg-gray-200"
@@ -23,6 +23,7 @@ const Footer = () => {
             Contribute and Join
           </NavLink>
         </div>
+
         <div className="flex items-center">
           <a
             href="https://twitter.com/CryptoPolicyDAO"
