@@ -12,26 +12,10 @@ export default function Navbar() {
   const isActive = (path) => location.pathname === path;
 
   const toggleThemes = () => {
-    setShowThemes(!showThemes);
+    const newTheme = selectedTheme === "Light" ? "Dark" : "Light";
+    document.documentElement.setAttribute("data-theme", newTheme);
+    setSelectedTheme(newTheme); // Update the state with selected theme name
   };
-
-  const selectTheme = (selectedTheme) => {
-    document.documentElement.setAttribute("data-theme", selectedTheme);
-    setSelectedTheme(selectedTheme); // Update the state with selected theme name
-    setShowThemes(false); // Close the themes dropdown
-  };
-
-  const handleClickOutside = (event) => {
-    // Check if the click is outside the toggle button and the dropdown
-    if (toggleRef.current && !toggleRef.current.contains(event.target)) {
-      setShowThemes(false);
-    }
-  };
-
-  useEffect(() => {
-    document.addEventListener("click", handleClickOutside);
-    return () => document.removeEventListener("click", handleClickOutside);
-  }, []);
 
   return (
     <div className="h-full">
@@ -48,27 +32,8 @@ export default function Navbar() {
                 minWidth: "5rem",
               }}
             >
-              {selectedTheme}
+              {selectedTheme === "Light" ? "Dark" : "Light"}
             </button>
-
-            {showThemes && (
-              <div className="absolute z-10 center-0 top-10 border border-gray-300 rounded-md shadow-lg theme-dropdown-options">
-                <button
-                  className="block w-full py-2 text-left px-4 original-button-hover"
-                  style={{ color: "#067288" }}
-                  onClick={() => selectTheme("Light")}
-                >
-                  Light
-                </button>
-                <button
-                  className="block w-full py-2 text-left px-4 dark-button-hover"
-                  style={{ color: "#95b7d0" }}
-                  onClick={() => selectTheme("Dark")}
-                >
-                  Dark
-                </button>
-              </div>
-            )}
           </div>
           <div>
             <NavLink

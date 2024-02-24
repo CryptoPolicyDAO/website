@@ -1,10 +1,21 @@
+import { NavLink } from "react-router-dom";
+
 const Footer = () => {
   return (
-    <footer className="footer mt-20" style={{ backgroundColor: "#f2f2f2" }}>
-      <div className="container flex items-center justify-between px-4 py-8">
+    <footer className="footer mt-20" style={{ backgroundColor: "var(--bac4)" }}>
+      <div className="container flex items-center justify-between px-8 py-2">
         <div className="flex items-center">
           <img src="/logo.png" alt="Twitter Icon" width="50" height="50" />
           <p style={{ color: "var(--header-color)" }}>Crypto Policy DAO</p>
+        </div>
+        <div className="container px-4 pb-1">
+          <NavLink
+            to="/contribute"
+            className="rounded-md border border-black px-4 py-2 hover:bg-gray-200"
+            style={{ color: "var(--header-color)" }}
+          >
+            Contribute and Join
+          </NavLink>
         </div>
         <div className="flex items-center">
           <a
