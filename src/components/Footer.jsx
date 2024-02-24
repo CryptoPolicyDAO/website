@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="container pb-1 md:pb-3">
+        <div>
           <NavLink
             to="/contribute"
             className="rounded-md border border-black px-2 py-1 md:px-4 md:py-2 hover:bg-gray-200"
@@ -34,8 +34,8 @@ const Footer = () => {
             <img
               src="/twitter.webp"
               alt="Twitter Icon"
-              width="80"
-              height="40"
+              width="50"
+              height="30"
               className=""
             />
           </a>
@@ -48,8 +48,8 @@ const Footer = () => {
             <img
               src="/github.png"
               alt="GitHub Icon"
-              width="80"
-              height="40"
+              width="50"
+              height="30"
               className=""
             />
           </a>
@@ -62,8 +62,8 @@ const Footer = () => {
             <img
               src="/discord.png"
               alt="Discord Icon"
-              width="80"
-              height="40"
+              width="50"
+              height="30"
               className=""
             />
           </a>
