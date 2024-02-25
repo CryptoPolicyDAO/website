@@ -29,7 +29,7 @@ function MatrixLongForm() {
         <div className="mt-5 mx-auto">
           <h2
             className="text-center text-2xl"
-            style={{ color: "var(--title)" }}
+            style={{ color: "var(--header-color)" }}
           >
             The Blockchain Stack encompasses the layers involved throughout a
             transaction, spanning from electricity generation to end-user
@@ -39,7 +39,7 @@ function MatrixLongForm() {
           <p
             className="text-left section-header"
             style={{
-              color: "var(--subtitle)",
+              color: "var(--sub-header-color)",
               maxWidth: "600px",
               paddingLeft: "50px",
             }}
@@ -49,7 +49,7 @@ function MatrixLongForm() {
           <div
             className="text-left mt-5"
             style={{
-              color: "var(--text)",
+              color: "var(--description-color)",
               maxWidth: "600px",
               paddingLeft: "70px",
             }}
@@ -89,7 +89,7 @@ function MatrixLongForm() {
 
           <p
             className="mt-10 text-2xl text-center"
-            style={{ color: "var(--subtitle)" }}
+            style={{ color: "var(--sub-header-color)" }}
           >
             Each layer demands consideration across various categories, inviting
             contributions to the Crypto Policy DAO
@@ -98,7 +98,7 @@ function MatrixLongForm() {
           <div
             className="text-left mt-5"
             style={{
-              color: "var(--text)",
+              color: "var(--description-color)",
               maxWidth: "600px",
               paddingLeft: "70px",
             }}
@@ -115,36 +115,38 @@ function MatrixLongForm() {
           <br></br>
           <p
             className="mt-10 text-center text-4xl"
-            style={{ color: "var(--title)" }}
+            style={{ color: "var(--header-color)" }}
           >
             Blockchain Regulation Matrix
           </p>
           <h3
             className="mt-5 mb-5 text-center text-3xl"
-            style={{ color: "var(--title)" }}
+            style={{ color: "var(--header-color)" }}
           >
             Centralized Projects
           </h3>
           <h3
             className="mt-5 mb-10 text-center text-2xl"
-            style={{ color: "var(--subtitle)" }}
+            style={{ color: "var(--sub-header-color)" }}
           >
             The content below applies only to centralized projects
           </h3>
           <div className="text-left mb-5 pl-10">
-            <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+            <div
+              style={{ color: "var(--sub-header-color)", fontWeight: "bold" }}
+            >
               Electricity
             </div>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 {" "}
                 Government Concerns
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--text)" }}
+                  style={{ color: "var(--description-color)" }}
                 >
                   <li>
                     Protecting consumers from loss of use due to a geopolitical
@@ -159,13 +161,13 @@ function MatrixLongForm() {
             </ul>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 Consumer Risks
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--text)" }}
+                  style={{ color: "var(--description-color)" }}
                 >
                   <li>
                     Potential geopolitical risks leading to electricity access
@@ -176,13 +178,13 @@ function MatrixLongForm() {
             </ul>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 Cons to over-regulation
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--text)" }}
+                  style={{ color: "var(--description-color)" }}
                 >
                   <li>
                     Potential risks of concentration and control by certain
@@ -194,13 +196,13 @@ function MatrixLongForm() {
 
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 <h3>Cons to lack of regulation</h3>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--text)" }}
+                  style={{ color: "var(--description-color)" }}
                 >
                   <li>
                     Potential displacement of development activities to more
@@ -211,7 +213,7 @@ function MatrixLongForm() {
             </ul>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 <h3>
@@ -222,18 +224,20 @@ function MatrixLongForm() {
             </ul>
           </div>
           <div className="text-left mb-5 pl-10">
-            <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+            <div
+              style={{ color: "var(--sub-header-color)", fontWeight: "bold" }}
+            >
               Settlement Layer
             </div>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 <h3>Government Concerns</h3>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--text)" }}
+                  style={{ color: "var(--description-color)" }}
                 >
                   <li>
                     Not being able to update / edit fraudulent transactions
@@ -247,13 +251,13 @@ function MatrixLongForm() {
             </ul>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 <h3>Consumer Risks</h3>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--text)" }}
+                  style={{ color: "var(--description-color)" }}
                 >
                   <li>Lack of due diligence</li>
                   <li>Security and attacks</li>
@@ -262,7 +266,7 @@ function MatrixLongForm() {
             </ul>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 <h3>Cons to over-regulation</h3>
@@ -270,13 +274,13 @@ function MatrixLongForm() {
             </ul>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 <h3>Cons to lack of regulation</h3>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--text)" }}
+                  style={{ color: "var(--description-color)" }}
                 >
                   <li>
                     Potential displacement of development activities to more
@@ -287,7 +291,7 @@ function MatrixLongForm() {
             </ul>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 <h3>
@@ -298,18 +302,20 @@ function MatrixLongForm() {
             </ul>
           </div>
           <div className="text-left mb-5 pl-10">
-            <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+            <div
+              style={{ color: "var(--sub-header-color)", fontWeight: "bold" }}
+            >
               Node / Validator
             </div>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 <h3>Government Concerns</h3>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--text)" }}
+                  style={{ color: "var(--description-color)" }}
                 >
                   <li>Not reporting income</li>
                   <li>Fault tolerant consensus</li>
@@ -319,13 +325,13 @@ function MatrixLongForm() {
             </ul>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 <h3>Consumer Risks</h3>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--text)" }}
+                  style={{ color: "var(--description-color)" }}
                 >
                   <li>Private Transactions</li>
                   <li>Selective Transactions</li>
@@ -335,7 +341,7 @@ function MatrixLongForm() {
             </ul>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 <h3>Cons to over-regulation</h3>
@@ -343,13 +349,13 @@ function MatrixLongForm() {
             </ul>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <div>
                 <h3>Cons to lack of regulation</h3>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--text)" }}
+                  style={{ color: "var(--description-color)" }}
                 >
                   <li>
                     Potential displacement of development activities to more
@@ -360,24 +366,26 @@ function MatrixLongForm() {
             </ul>
           </div>
           <div className="text-left mb-5 pl-10">
-            <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+            <div
+              style={{ color: "var(--sub-header-color)", fontWeight: "bold" }}
+            >
               Consensus Layer
             </div>
             <ul
               className="list-disc pl-12"
-              style={{ color: "var(--subtitle)" }}
+              style={{ color: "var(--sub-header-color)" }}
             >
               <li>
                 Computation Intensive Based
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--text)" }}
+                  style={{ color: "var(--description-color)" }}
                 >
                   <li>
                     Government Concerns
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Amount of electricity being used comparatively to
@@ -391,7 +399,7 @@ function MatrixLongForm() {
                     Consumer Risks
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         High energy consumption leading to environmental
@@ -405,7 +413,7 @@ function MatrixLongForm() {
                     Cons to over-regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Stifling innovation and development of energy-efficient
@@ -425,7 +433,7 @@ function MatrixLongForm() {
                     Cons to lack of regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Lack of standardization leading to security
@@ -446,7 +454,7 @@ function MatrixLongForm() {
                     obligations, and if so, what is it?
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Proof of Stake (PoS) consensus algorithms that require
@@ -468,13 +476,13 @@ function MatrixLongForm() {
                 Capabilities Based
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <li>
                     Government Concerns
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>Upgrading consumer security standards</li>
                     </ul>
@@ -483,7 +491,7 @@ function MatrixLongForm() {
                     Consumer Risks
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>Insufficient protection of user data and privacy</li>
                       <li>
@@ -498,7 +506,7 @@ function MatrixLongForm() {
                     Cons to over-regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Hampering innovation by imposing rigid security
@@ -518,7 +526,7 @@ function MatrixLongForm() {
                     Cons to lack of regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Proliferation of insecure smart contracts leading to
@@ -539,7 +547,7 @@ function MatrixLongForm() {
                     obligations, and if so, what is it?
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li />
                     </ul>
@@ -550,13 +558,13 @@ function MatrixLongForm() {
                 Voting Based
                 <ul
                   className="list-disc pl-12 mb-5"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <li>
                     Government Concerns
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>Ensuring fair and transparent voting processes</li>
                       <li>Preventing voter fraud and manipulation</li>
@@ -567,7 +575,7 @@ function MatrixLongForm() {
                     Consumer Risks
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Lack of anonymity in voting leading to privacy concerns
@@ -582,7 +590,7 @@ function MatrixLongForm() {
                     Cons to over-regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Overly strict regulations hindering the flexibility and
@@ -602,7 +610,7 @@ function MatrixLongForm() {
                     Cons to lack of regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Vulnerability to malicious attacks on the voting process
@@ -621,25 +629,27 @@ function MatrixLongForm() {
                     obligations, and if so, what is it?
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     ></ul>
                   </li>
                 </ul>
               </li>
             </ul>
             <div className="text-left mb-5 pl-10">
-              <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+              <div
+                style={{ color: "var(--sub-header-color)", fontWeight: "bold" }}
+              >
                 Transaction Layer
               </div>
               <ul
                 className="list-disc pl-12"
-                style={{ color: "var(--subtitle)" }}
+                style={{ color: "var(--sub-header-color)" }}
               >
                 <li>
                   Government Concerns
                   <ul
                     className="list-disc pl-12"
-                    style={{ color: "var(--text)" }}
+                    style={{ color: "var(--description-color)" }}
                   >
                     <li>
                       Ensuring traceability and transparency of transactions
@@ -662,7 +672,7 @@ function MatrixLongForm() {
                   Consumer Risks
                   <ul
                     className="list-disc pl-12"
-                    style={{ color: "var(--text)" }}
+                    style={{ color: "var(--description-color)" }}
                   >
                     <li>Exposure to potential transaction delays or fees</li>
                     <li>
@@ -676,7 +686,7 @@ function MatrixLongForm() {
                   Cons to over-regulation
                   <ul
                     className="list-disc pl-12"
-                    style={{ color: "var(--text)" }}
+                    style={{ color: "var(--description-color)" }}
                   >
                     <li>
                       Stifling innovation and experimentation with new
@@ -696,7 +706,7 @@ function MatrixLongForm() {
                   Cons to lack of regulation
                   <ul
                     className="list-disc pl-12"
-                    style={{ color: "var(--text)" }}
+                    style={{ color: "var(--description-color)" }}
                   >
                     <li>
                       Increased susceptibility to fraudulent or malicious
@@ -716,24 +726,26 @@ function MatrixLongForm() {
                   </h3>
                   <ul
                     className="list-disc pl-12 mb-5"
-                    style={{ color: "var(--text)" }}
+                    style={{ color: "var(--description-color)" }}
                   ></ul>
                 </li>
               </ul>
             </div>
             <div className="text-left mb-5 pl-10">
-              <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+              <div
+                style={{ color: "var(--sub-header-color)", fontWeight: "bold" }}
+              >
                 On-chain Data Storage
               </div>
               <ul
                 className="list-disc pl-12"
-                style={{ color: "var(--subtitle)" }}
+                style={{ color: "var(--sub-header-color)" }}
               >
                 <li>
                   Government Concerns
                   <ul
                     className="list-disc pl-12"
-                    style={{ color: "var(--text)" }}
+                    style={{ color: "var(--description-color)" }}
                   >
                     <li>Storage space mapping</li>
                     <li>
@@ -754,7 +766,7 @@ function MatrixLongForm() {
                   Consumer Risks
                   <ul
                     className="list-disc pl-12"
-                    style={{ color: "var(--text)" }}
+                    style={{ color: "var(--description-color)" }}
                   >
                     <li>
                       Exposure of sensitive or personal data to public scrutiny
@@ -773,7 +785,7 @@ function MatrixLongForm() {
                   Cons to over-regulation
                   <ul
                     className="list-disc pl-12"
-                    style={{ color: "var(--text)" }}
+                    style={{ color: "var(--description-color)" }}
                   >
                     <li>
                       Impeding the adoption of blockchain for legitimate and
@@ -793,7 +805,7 @@ function MatrixLongForm() {
                   Cons to lack of regulation
                   <ul
                     className="list-disc pl-12"
-                    style={{ color: "var(--text)" }}
+                    style={{ color: "var(--description-color)" }}
                   >
                     <li>
                       Lack of standardized data storage practices leading to
@@ -814,30 +826,32 @@ function MatrixLongForm() {
                   obligations, and if so, what is it?
                   <ul
                     className="list-disc pl-12 mb-5"
-                    style={{ color: "var(--text)" }}
+                    style={{ color: "var(--description-color)" }}
                   ></ul>
                 </li>
               </ul>
             </div>
             <div className="text-left mb-5 pl-10">
-              <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+              <div
+                style={{ color: "var(--sub-header-color)", fontWeight: "bold" }}
+              >
                 Asset Layer
               </div>
               <ul
                 className="list-disc pl-12"
-                style={{ color: "var(--subtitle)" }}
+                style={{ color: "var(--sub-header-color)" }}
               >
                 <li>
                   Stablecoins
                   <ul
                     className="list-disc pl-12"
-                    style={{ color: "var(--text)" }}
+                    style={{ color: "var(--description-color)" }}
                   >
                     <li>
                       Government Concerns
                       <ul
                         className="list-disc pl-12"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       >
                         <li>
                           Ensuring stability and value preservation of
@@ -869,7 +883,7 @@ function MatrixLongForm() {
                       Consumer Risks
                       <ul
                         className="list-disc pl-12"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       >
                         <li>
                           Risk of stablecoin issuer insolvency or mismanagement
@@ -889,7 +903,7 @@ function MatrixLongForm() {
                       Cons to over-regulation
                       <ul
                         className="list-disc pl-12"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       >
                         <li>
                           Hindering the growth and innovation of stablecoin use
@@ -909,7 +923,7 @@ function MatrixLongForm() {
                       Cons to lack of regulation
                       <ul
                         className="list-disc pl-12"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       >
                         <li>
                           Lack of consumer protection and accountability in
@@ -930,7 +944,7 @@ function MatrixLongForm() {
                       these obligations, and if so, what is it?
                       <ul
                         className="list-disc pl-12 mb-5"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       >
                         {/* Include specific technology fulfilling these obligations */}
                       </ul>
@@ -940,19 +954,19 @@ function MatrixLongForm() {
               </ul>
               <ul
                 className="list-disc pl-12"
-                style={{ color: "var(--subtitle)" }}
+                style={{ color: "var(--sub-header-color)" }}
               >
                 <li>
                   Fungible Tokens (ERC20s, etc)
                   <ul
                     className="list-disc pl-12"
-                    style={{ color: "var(--text)" }}
+                    style={{ color: "var(--description-color)" }}
                   >
                     <li>
                       Government Concerns
                       <ul
                         className="list-disc pl-12"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       >
                         <li>
                           Mutability presents a scenario of being &quot;derived
@@ -969,7 +983,7 @@ function MatrixLongForm() {
                       Consumer Risks
                       <ul
                         className="list-disc pl-12"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       >
                         <li>
                           Security of transactions: Ensuring that transactions
@@ -987,7 +1001,7 @@ function MatrixLongForm() {
                       Cons to over-regulation
                       <ul
                         className="list-disc pl-12"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       >
                         <li>
                           Overly stringent regulations could stifle innovation
@@ -1005,7 +1019,7 @@ function MatrixLongForm() {
                       Cons to lack of regulation
                       <ul
                         className="list-disc pl-12"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       >
                         <li>
                           Lack of regulatory oversight could lead to fraudulent
@@ -1024,7 +1038,7 @@ function MatrixLongForm() {
                       these obligations, and if so, what is it?
                       <ul
                         className="list-disc pl-12 mb-5"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       ></ul>
                     </li>
                   </ul>
@@ -1032,19 +1046,19 @@ function MatrixLongForm() {
               </ul>
               <ul
                 className="list-disc pl-12"
-                style={{ color: "var(--subtitle)" }}
+                style={{ color: "var(--sub-header-color)" }}
               >
                 <li>
                   Non-Fungible Tokens (NFTs)
                   <ul
                     className="list-disc pl-12"
-                    style={{ color: "var(--text)" }}
+                    style={{ color: "var(--description-color)" }}
                   >
                     <li>
                       Government Concerns
                       <ul
                         className="list-disc pl-12"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       >
                         <li>
                           classNameification uncertainty for diverse NFT assets
@@ -1063,7 +1077,7 @@ function MatrixLongForm() {
                       Consumer Risks
                       <ul
                         className="list-disc pl-12"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       >
                         <li>
                           Data exposure in NFTs, even with restricted access
@@ -1080,7 +1094,7 @@ function MatrixLongForm() {
                       Cons to over-regulation
                       <ul
                         className="list-disc pl-12"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       >
                         <li>Stifled innovation due to heavy regulations</li>
                         <li>
@@ -1099,7 +1113,7 @@ function MatrixLongForm() {
                       Cons to lack of regulation
                       <ul
                         className="list-disc pl-12"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       >
                         <li>Vulnerability to NFT fraud without clear rules</li>
                         <li>Ownership ambiguity leading to disputes</li>
@@ -1111,7 +1125,7 @@ function MatrixLongForm() {
                       these obligations, and if so, what is it?
                       <ul
                         className="list-disc pl-12 mb-5"
-                        style={{ color: "var(--text)" }}
+                        style={{ color: "var(--description-color)" }}
                       ></ul>
                     </li>
                   </ul>
@@ -1119,18 +1133,23 @@ function MatrixLongForm() {
               </ul>
 
               <div className="text-left mb-5 pl-10">
-                <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+                <div
+                  style={{
+                    color: "var(--sub-header-color)",
+                    fontWeight: "bold",
+                  }}
+                >
                   Exchange Layer
                 </div>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <li>
                     Government Concerns
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Not registering with FinCen or the SEC if facilitating
@@ -1146,7 +1165,7 @@ function MatrixLongForm() {
                     Consumer Risks
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>High transaction fees in decentralized exchanges</li>
                       <li>Impermanent loss risk in liquidity provision</li>
@@ -1168,7 +1187,7 @@ function MatrixLongForm() {
                     Cons to over-regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Overbearing regulations stifling innovation in
@@ -1187,7 +1206,7 @@ function MatrixLongForm() {
                     Cons to lack of regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Lack of investor protection and avenues for dispute
@@ -1212,24 +1231,29 @@ function MatrixLongForm() {
                     obligations, and if so, what is it?
                     <ul
                       className="list-disc pl-12 mb-5"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     ></ul>
                   </li>
                 </ul>
               </div>
               <div className="text-left mb-5 pl-10">
-                <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+                <div
+                  style={{
+                    color: "var(--sub-header-color)",
+                    fontWeight: "bold",
+                  }}
+                >
                   Application Layer
                 </div>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <li>
                     Gov&apos;t Concerns
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Lack of accountability in centralized applications
@@ -1249,7 +1273,7 @@ function MatrixLongForm() {
                     Consumer Risks
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Data privacy concerns due to centralized control over
@@ -1271,7 +1295,7 @@ function MatrixLongForm() {
                     Cons to over-regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Stifling innovation and growth of centralized cApp
@@ -1289,7 +1313,7 @@ function MatrixLongForm() {
                     Cons to lack of regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Lack of standardized security and data protection
@@ -1309,7 +1333,7 @@ function MatrixLongForm() {
                     Does blockchain tech exist for this?
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li />
                     </ul>
@@ -1317,18 +1341,23 @@ function MatrixLongForm() {
                 </ul>
               </div>
               <div className="text-left mb-5 pl-10">
-                <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+                <div
+                  style={{
+                    color: "var(--sub-header-color)",
+                    fontWeight: "bold",
+                  }}
+                >
                   Internet Browser Layer
                 </div>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <li>
                     Gov&apos;t Concerns
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Facilitating international business transactions and
@@ -1347,7 +1376,7 @@ function MatrixLongForm() {
                     Consumer Risks
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Privacy concerns due to browser tracking and data
@@ -1371,7 +1400,7 @@ function MatrixLongForm() {
                     Cons to over-regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Excessive regulations stifling innovation and
@@ -1391,7 +1420,7 @@ function MatrixLongForm() {
                     Cons to lack of regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Lack of specific support for addressing social
@@ -1403,7 +1432,7 @@ function MatrixLongForm() {
                     Does blockchain tech exist for this?
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li />
                     </ul>
@@ -1411,18 +1440,23 @@ function MatrixLongForm() {
                 </ul>
               </div>
               <div className="text-left mb-5 pl-10">
-                <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+                <div
+                  style={{
+                    color: "var(--sub-header-color)",
+                    fontWeight: "bold",
+                  }}
+                >
                   Developer Layer
                 </div>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <li>
                     Gov&apos;t Concerns
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Facilitating international business transactions and
@@ -1453,7 +1487,7 @@ function MatrixLongForm() {
                     Consumer Risks
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         How can I protect myself without having to be a smart
@@ -1484,7 +1518,7 @@ function MatrixLongForm() {
                     Cons to over-regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Excessive regulations stifling innovation and hindering
@@ -1508,7 +1542,7 @@ function MatrixLongForm() {
                     Cons to lack of regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Proliferation of insecure and unreliable smart contracts
@@ -1531,7 +1565,7 @@ function MatrixLongForm() {
                     Does any standardization exist for this?
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li />
                     </ul>
@@ -1539,18 +1573,23 @@ function MatrixLongForm() {
                 </ul>
               </div>
               <div className="text-left mb-5 pl-10">
-                <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+                <div
+                  style={{
+                    color: "var(--sub-header-color)",
+                    fontWeight: "bold",
+                  }}
+                >
                   DeFi Architecture Security
                 </div>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <li>
                     Gov&apos;t Concerns
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>How are people losing assets and why?</li>
                       <li>DeFi stack interoperability standards</li>
@@ -1572,7 +1611,7 @@ function MatrixLongForm() {
                     Consumer Risks
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Exposure to smart contract vulnerabilities leading to
@@ -1600,7 +1639,7 @@ function MatrixLongForm() {
                     Cons to over-regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Excessive regulations stifling innovation and hindering
@@ -1624,7 +1663,7 @@ function MatrixLongForm() {
                     Cons to lack of regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Proliferation of insecure DeFi platforms and protocols
@@ -1646,18 +1685,23 @@ function MatrixLongForm() {
                 </ul>
               </div>
               <div className="text-left mb-5 pl-10">
-                <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+                <div
+                  style={{
+                    color: "var(--sub-header-color)",
+                    fontWeight: "bold",
+                  }}
+                >
                   DeFi Architecture Standards / Auditor
                 </div>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <li>
                     Gov&apos;t Concerns
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Ensuring regulatory compliance and consumer protection
@@ -1686,7 +1730,7 @@ function MatrixLongForm() {
                     Consumer Risks
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Exposure to unaudited DeFi protocols leading to
@@ -1701,7 +1745,7 @@ function MatrixLongForm() {
                     Cons to over-regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>Imposing high compliance costs for new entrants</li>
                       <li>Slowing down DeFi development and iteration</li>
@@ -1715,7 +1759,7 @@ function MatrixLongForm() {
                     Cons to lack of regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>Lack of standardized security practices in DeFi</li>
                       <li>
@@ -1728,18 +1772,23 @@ function MatrixLongForm() {
                 </ul>
               </div>
               <div className="text-left mb-5 pl-10">
-                <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+                <div
+                  style={{
+                    color: "var(--sub-header-color)",
+                    fontWeight: "bold",
+                  }}
+                >
                   Fiat Onboarding / Offboarding Access Layer
                 </div>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <li>
                     Gov&apos;t Concerns
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Ensuring compliance with anti-money laundering (AML) and
@@ -1763,7 +1812,7 @@ function MatrixLongForm() {
                     Consumer Risks
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Exposure to potential legal consequences for
@@ -1787,7 +1836,7 @@ function MatrixLongForm() {
                     Cons to over-regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Imposing high compliance costs and barriers for new
@@ -1807,7 +1856,7 @@ function MatrixLongForm() {
                     Cons to lack of regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Lack of standardized security and quality practices in
@@ -1832,30 +1881,35 @@ function MatrixLongForm() {
               </div>
               <h3
                 className="mt-5 mb-5 text-center text-3xl"
-                style={{ color: "var(--title)" }}
+                style={{ color: "var(--header-color)" }}
               >
                 Decentralized Projects
               </h3>
               <h3
                 className="mt-5 mb-10 text-center text-2xl"
-                style={{ color: "var(--subtitle)" }}
+                style={{ color: "var(--sub-header-color)" }}
               >
                 The content below applies only to decentralized projects
               </h3>
               <div className="text-left mb-5 pl-10">
-                <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+                <div
+                  style={{
+                    color: "var(--sub-header-color)",
+                    fontWeight: "bold",
+                  }}
+                >
                   Electricity
                 </div>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     {" "}
                     Government Concerns
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Protecting Consumers from loss of use due to a
@@ -1870,13 +1924,13 @@ function MatrixLongForm() {
                 </ul>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     Consumer Risks
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Potential geopolitical risks leading to electricity
@@ -1887,13 +1941,13 @@ function MatrixLongForm() {
                 </ul>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     Cons to over-regulation
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Potential risks of concentration and control by certain
@@ -1905,13 +1959,13 @@ function MatrixLongForm() {
 
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     <h3>Cons to lack of regulation</h3>
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Potential risks of concentration and control by certain
@@ -1922,7 +1976,7 @@ function MatrixLongForm() {
                 </ul>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     <h3>
@@ -1933,18 +1987,23 @@ function MatrixLongForm() {
                 </ul>
               </div>
               <div className="text-left mb-5 pl-10">
-                <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+                <div
+                  style={{
+                    color: "var(--sub-header-color)",
+                    fontWeight: "bold",
+                  }}
+                >
                   Settlement Layer
                 </div>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     <h3>Government Concerns</h3>
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Not being able to update / edit fraudulent transactions
@@ -1958,13 +2017,13 @@ function MatrixLongForm() {
                 </ul>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     <h3>Consumer Risks</h3>
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>Lack of due diligence</li>
                       <li>Security and attacks</li>
@@ -1973,7 +2032,7 @@ function MatrixLongForm() {
                 </ul>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     <h3>Cons to over-regulation</h3>
@@ -1981,19 +2040,19 @@ function MatrixLongForm() {
                 </ul>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     <h3>Cons to lack of regulation</h3>
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     ></ul>
                   </div>
                 </ul>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     <h3>
@@ -2004,18 +2063,23 @@ function MatrixLongForm() {
                 </ul>
               </div>
               <div className="text-left mb-5 pl-10">
-                <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+                <div
+                  style={{
+                    color: "var(--sub-header-color)",
+                    fontWeight: "bold",
+                  }}
+                >
                   Node / Validator
                 </div>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     <h3>Government Concerns</h3>
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>Not reporting income</li>
                       <li>Fault tolerant consensus</li>
@@ -2025,13 +2089,13 @@ function MatrixLongForm() {
                 </ul>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     <h3>Consumer Risks</h3>
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>Private Transactions</li>
                       <li>Selective Transactions</li>
@@ -2041,7 +2105,7 @@ function MatrixLongForm() {
                 </ul>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     <h3>Cons to over-regulation</h3>
@@ -2049,13 +2113,13 @@ function MatrixLongForm() {
                 </ul>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <div>
                     <h3>Cons to lack of regulation</h3>
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Potential displacement of development activities to more
@@ -2066,24 +2130,29 @@ function MatrixLongForm() {
                 </ul>
               </div>
               <div className="text-left mb-5 pl-10">
-                <div style={{ color: "var(--subtitle)", fontWeight: "bold" }}>
+                <div
+                  style={{
+                    color: "var(--sub-header-color)",
+                    fontWeight: "bold",
+                  }}
+                >
                   Consensus Layer
                 </div>
                 <ul
                   className="list-disc pl-12"
-                  style={{ color: "var(--subtitle)" }}
+                  style={{ color: "var(--sub-header-color)" }}
                 >
                   <li>
                     Computation Intensive Based
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--text)" }}
+                      style={{ color: "var(--description-color)" }}
                     >
                       <li>
                         Government Concerns
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         >
                           <li>
                             Amount of electricity being used comparatively to
@@ -2097,7 +2166,7 @@ function MatrixLongForm() {
                         Consumer Risks
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         >
                           <li>
                             High energy consumption leading to environmental
@@ -2111,7 +2180,7 @@ function MatrixLongForm() {
                         Cons to over-regulation
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         >
                           <li>
                             Stifling innovation and development of
@@ -2131,7 +2200,7 @@ function MatrixLongForm() {
                         Cons to lack of regulation
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         >
                           <li>
                             Lack of standardization leading to security
@@ -2152,7 +2221,7 @@ function MatrixLongForm() {
                         these obligations, and if so, what is it?
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         >
                           <li>
                             Proof of Stake (PoS) consensus algorithms that
@@ -2174,13 +2243,13 @@ function MatrixLongForm() {
                     Capabilities Based
                     <ul
                       className="list-disc pl-12"
-                      style={{ color: "var(--subtitle)" }}
+                      style={{ color: "var(--sub-header-color)" }}
                     >
                       <li>
                         Government Concerns
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         >
                           <li>Upgrading consumer security standards</li>
                         </ul>
@@ -2189,7 +2258,7 @@ function MatrixLongForm() {
                         Consumer Risks
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         >
                           <li>
                             Insufficient protection of user data and privacy
@@ -2207,7 +2276,7 @@ function MatrixLongForm() {
                         Cons to over-regulation
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         >
                           <li>
                             Hampering innovation by imposing rigid security
@@ -2227,7 +2296,7 @@ function MatrixLongForm() {
                         Cons to lack of regulation
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         >
                           <li>
                             Proliferation of insecure smart contracts leading to
@@ -2248,7 +2317,7 @@ function MatrixLongForm() {
                         these obligations, and if so, what is it?
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         ></ul>
                       </li>
                     </ul>
@@ -2257,13 +2326,13 @@ function MatrixLongForm() {
                     Voting Based
                     <ul
                       className="list-disc pl-12 mb-5"
-                      style={{ color: "var(--subtitle)" }}
+                      style={{ color: "var(--sub-header-color)" }}
                     >
                       <li>
                         Government Concerns
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         >
                           <li>
                             Ensuring fair and transparent voting processes
@@ -2276,7 +2345,7 @@ function MatrixLongForm() {
                         Consumer Risks
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         >
                           <li>
                             Lack of anonymity in voting leading to privacy
@@ -2295,7 +2364,7 @@ function MatrixLongForm() {
                         Cons to over-regulation
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         >
                           <li>
                             Overly strict regulations hindering the flexibility
@@ -2315,7 +2384,7 @@ function MatrixLongForm() {
                         Cons to lack of regulation
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         >
                           <li>
                             Vulnerability to malicious attacks on the voting
@@ -2335,7 +2404,7 @@ function MatrixLongForm() {
                         these obligations, and if so, what is it?
                         <ul
                           className="list-disc pl-12"
-                          style={{ color: "var(--text)" }}
+                          style={{ color: "var(--description-color)" }}
                         ></ul>
                       </li>
                     </ul>

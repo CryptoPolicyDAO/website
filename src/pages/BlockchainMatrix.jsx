@@ -23,7 +23,7 @@ export default function Contribute() {
         <p
           className="text-center mx-auto"
           style={{
-            color: "var(--description-color)",
+            color: "var(--sub-header-color)",
             maxWidth: "900px",
             fontSize: "1rem",
           }}
@@ -40,7 +40,7 @@ export default function Contribute() {
         <p
           className="text-center mx-auto"
           style={{
-            color: "var(--description-color)",
+            color: "var(--sub-header-color)",
             maxWidth: "900px",
             fontSize: "1rem",
           }}
@@ -56,7 +56,7 @@ export default function Contribute() {
         <p
           className="text-center mx-auto"
           style={{
-            color: "var(--description-color)",
+            color: "var(--sub-header-color)",
             maxWidth: "900px",
             fontSize: "1rem",
           }}
@@ -68,6 +68,22 @@ export default function Contribute() {
           category is subjected to a predefined set of inquiries across various
           layers of the blockchain stack.
         </p>
+      </div>
+      <br></br>
+      <div
+        className="w-full max-w-lg mx-auto rounded-md px-4 py-3"
+        style={{
+          color: "var(--sub-header-color)",
+          backgroundColor: "var(--bac4)",
+          fontSize: "1rem",
+        }}
+      >
+        <p>
+          There are two illustrations of the Blockchain Regulation Matrix below,
+          a short-form immediately below and a long-form after.
+        </p>
+        <br></br>
+        <p>Hover over each of the images below to read more information.</p>
       </div>
       <Matrix />
       <br></br>

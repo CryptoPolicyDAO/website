@@ -12,6 +12,7 @@
   --bac4: #a2c2d8;
   --bac5: #88b7dc;
   --header-color: #1e2a78;
+  --sub-header-color: #1e2a78;
   --description-color: #1b365d;
   --content-color: #648db1;
   --hover-description-background: #88b7dc;
@@ -30,6 +31,7 @@
   --hover-subtext: #29285c; /* Subtle hover effect */
   --image1: url("/c1.png");
   --image2: url("/d1.png");
+  --outline-color: #1e2a78;
 }
 
 [data-theme="Dark"] {
@@ -45,9 +47,10 @@
   --bac3: #09121e;
   --bac4: #334155;
   --bac5: #2b384a;
-  --header-color: #9299a3;
-  --description-color: #969ba5;
-  --content-color: #8299b9;
+  --header-color: #bcc4cf;
+  --sub-header-color: #96a3b6;
+  --description-color: #6a809e;
+  --content-color: #6082b1;
   --hover-description-background: #2b384a;
   --effect-1: #bfcdda;
   --effect-2: #c2c7d3;
@@ -64,6 +67,7 @@
   --hover-subtext: #80b3c2;
   --image1: url("c2.png");
   --image2: url("d2.png");
+  --outline-color: #a2b2c7;
 }
 
 body {

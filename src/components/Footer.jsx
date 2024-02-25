@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="flex items-center mb-4 md:mb-0">
           <NavLink
             to="/contribute"
-            className="rounded-md border border-black px-2 py-1 md:px-4 md:py-2 hover:bg-gray-200"
+            className="rounded-md border border-black px-2 py-1 md:px-4 md:py-3 hover:bg-gray-200"
             style={{ color: "var(--header-color)", fontSize: "0.8rem" }}
           >
             Contribute and Join

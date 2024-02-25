@@ -101,12 +101,14 @@ export default function Contribute() {
             justifyContent: "center",
             alignItems: "center",
             width: "50%",
+            height: "50%",
           }}
         >
           <video
             autoPlay
             loop
             muted
+            playsInline
             className={`zoom-video ${isZoomed ? "zoomed" : ""}`}
             onMouseEnter={() => setIsZoomed(true)}
             onMouseLeave={() => setIsZoomed(false)}

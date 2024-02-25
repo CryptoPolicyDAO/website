@@ -39,7 +39,7 @@ export default function Home() {
               Crypto Policy DAO
             </p>
             <div className="video-center video-container">
-              <video autoPlay loop muted width="300" height="400">
+              <video autoPlay loop muted playsInline width="300" height="400">
                 <source src={videoFile} type="video/mp4" />
               </video>
             </div>
@@ -102,7 +102,7 @@ export default function Home() {
             <br />
             <p
               className="text-left text-xl"
-              style={{ color: "var(--header-color)", fontSize: "1.5rem" }}
+              style={{ color: "var(--sub-header-color)", fontSize: "1.5rem" }}
             >
               Web3-friendly Regulatory Think Tank
             </p>
