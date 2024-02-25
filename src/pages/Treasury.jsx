@@ -43,7 +43,7 @@ function Portfolio() {
     if (publicKey && chainId) {
       setLoading(true);
 
-      const historicPortfolioValueEndpoint = `https://api.covalenthq.com/v1/${chainId}/address/${publicKey}/portfolio_v2/?days=365`;
+      const historicPortfolioValueEndpoint = `https://api.covalenthq.com/v1/${chainId}/address/${publicKey}/portfolio_v2/?days=30`;
 
       // Fetching historic portfolio value
       fetch(historicPortfolioValueEndpoint, {

@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="flex items-center mb-4 md:mb-0">
           <NavLink
             to="/contribute"
-            className="rounded-md border border-black px-2 py-1 md:px-4 md:py-3 hover:bg-gray-200"
+            className="rounded-md border border-black py-1 md:px-4 md:py-3 hover:bg-gray-200"
             style={{ color: "var(--header-color)", fontSize: "0.8rem" }}
           >
             Contribute and Join
@@ -57,11 +57,25 @@ const Footer = () => {
             href="https://discord.gg/fX7UaC4A5M"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-purple-500"
+            className="mr-4 hover:text-purple-500"
           >
             <img
               src="/discord.png"
               alt="Discord Icon"
+              width="50"
+              height="30"
+              className=""
+            />
+          </a>
+          <a
+            href="https://medium.com/@cryptopolicydao"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-purple-500"
+          >
+            <img
+              src="/medium1.png"
+              alt="Medium Icon"
               width="50"
               height="30"
               className=""
