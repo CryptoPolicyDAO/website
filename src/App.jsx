@@ -13,6 +13,7 @@ import Contribute from "./pages/Contribute";
 import Matrix from "./pages/Matrix";
 import Treasury from "./pages/Treasury";
 import Friction from "./pages/Friction";
+import Blog from "./pages/Blog";
 
 function App() {
   const router = createHashRouter(
@@ -24,6 +25,7 @@ function App() {
         <Route path="matrix" element={<Matrix />} />
         <Route path="treasury" element={<Treasury />} />
         <Route path="friction" element={<Friction />} />
+        <Route path="Blog" element={<Blog />} />
       </Route>
     )
   );

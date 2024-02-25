@@ -97,7 +97,7 @@ export default function Navbar() {
               className={`mr-10 NavLink product ${
                 isActive("/futureTopics") ? "hidden" : ""
               }`}
-              to="/futureTopics"
+              to="/Blog"
               activeClassName="active-link"
             >
               <div className="effect-1"></div>
