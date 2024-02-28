@@ -65,9 +65,7 @@ export default function Navbar() {
             >
               <div className="effect-1"></div>
               <div className="effect-2"></div>
-              <span style={{ color: "var(--nav2)" }}>
-                Blockchain Regulation Matrix
-              </span>
+              <span style={{ color: "var(--nav2)" }}>Regulation Matrix</span>
             </NavLink>
             <NavLink
               className={`mr-10 NavLink product ${
